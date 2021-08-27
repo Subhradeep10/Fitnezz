@@ -1,0 +1,14 @@
+#memberbutton{
+    box-sizing: border-box;
+    background-color: rgb(224, 77, 101);
+    text-decoration-color: white;
+
+}
+#memberbutton:hover{
+    box-sizing: border-box;
+    background-color: rgb(238, 158, 158);
+    text-decoration: rgb(236, 231, 232);
+}
+.navbar2{
+    justify-content: space-between;
+}
