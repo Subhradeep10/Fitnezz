@@ -5,3 +5,16 @@
     top: 20px;
     color: white;
 }
+.center{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    color: white;
+}
+.right{
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    color: white;
+}
