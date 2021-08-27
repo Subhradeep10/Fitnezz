@@ -1,0 +1,6 @@
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
