@@ -53,4 +53,11 @@
 }
 .banner{
     color: white;
+    display: block;
+    width: 33%;
+    text-align: center;
+    margin: 200px auto;
+}
+.banner head{
+    
 }
