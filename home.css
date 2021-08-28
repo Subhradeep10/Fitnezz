@@ -34,3 +34,20 @@
     color: white;
     padding: 34px;
 }
+
+.btn{
+    background-color: purple;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn :hover{
+    background-color: white;
+    color: purple;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
