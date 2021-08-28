@@ -38,15 +38,15 @@
 .btn{
     background-color: purple;
     color: white;
-    padding: 15px;
+    padding: 12px;
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
 }
-.btn :hover{
+.btn:hover{
     background-color: white;
     color: purple;
-    padding: 15px;
+    padding: 12px;
     font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
