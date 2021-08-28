@@ -63,3 +63,24 @@
     font-size: 50px;
     padding: 20px;
 }
+.topic{
+    display: inline-block;
+    font-size: 24px;
+    padding: 10px ;
+}
+.butns{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px white solid;
+    cursor: pointer;
+}
+.butns:hover{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    border: 1px black solid;
+    cursor: pointer;
+}
