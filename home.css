@@ -18,3 +18,7 @@
     top: 20px;
     color: white;
 }
+.navbar{
+    display: inline-block;
+}
+
