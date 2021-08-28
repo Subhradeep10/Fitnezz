@@ -56,8 +56,10 @@
     display: block;
     width: 33%;
     text-align: center;
-    margin: 200px auto;
+    margin: 250px auto;
+    padding: 20px;
 }
-.banner head{
-    
+.head{
+    font-size: 50px;
+    padding: 20px;
 }
