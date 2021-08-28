@@ -21,4 +21,6 @@
 .navbar{
     display: inline-block;
 }
-
+.navbar li{
+    display: inline-block;
+}
