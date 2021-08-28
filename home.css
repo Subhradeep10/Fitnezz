@@ -69,12 +69,13 @@
     padding: 10px ;
 }
 .butns{
-    background-color: black;
+    background-color: transparent;
     color: white;
     font-size: 20px;
     padding: 15px;
     border: 1px white solid;
     cursor: pointer;
+    margin-top: 10px;
 }
 .butns:hover{
     background-color: white;
@@ -83,4 +84,11 @@
     padding: 15px;
     border: 1px black solid;
     cursor: pointer;
+}
+
+.body{
+    background: url('./images/bg.jpg');
+    height: 900px;
+    margin-top: 0px;
+    padding: 10px;
 }
