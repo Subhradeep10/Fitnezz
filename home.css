@@ -23,5 +23,9 @@
 }
 .navbar li{
     display: inline-block;
+    
+}
+.navbar li a{
     text-decoration: none;
+    color: white;
 }
