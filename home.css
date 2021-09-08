@@ -123,6 +123,7 @@ hr{
     background: rgb(255, 255, 255);
     flex: 1;
     margin: 50px 20px;
+    transition: 2s;
 }
 
 .slider .card .img{
@@ -135,6 +136,10 @@ hr{
     height: 100%;
     width: 100%;
     object-fit: cover ;
+}
+
+.slider .card :hover{
+    transform: scale(1.1);
 }
 
 .card .content .title{
