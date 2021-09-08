@@ -115,3 +115,7 @@ hr{
     padding: 2%;
     font-weight: bolder;
 }
+.slider{
+    max-width: 1150px;
+    display: flex;
+}
