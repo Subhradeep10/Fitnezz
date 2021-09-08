@@ -122,18 +122,24 @@ hr{
 .slider .card{
     background: rgb(255, 255, 255);
     flex: 1;
-    margin: 0px 10px;
+    margin: 50px 20px;
 }
 
 .slider .card .img{
-    height: 200px;
+    height: 300px;
     width: 100%;
+    
 }
 
 .slider .card .img img{
     height: 100%;
     width: 100%;
     object-fit: cover ;
+}
+
+.card .content .title{
+    font-size: 25px;
+    font-weight: bolder;
 }
 
 .cardwhole{
