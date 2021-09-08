@@ -138,8 +138,10 @@ hr{
 }
 
 .card .content .title{
-    font-size: 25px;
-    font-weight: bolder;
+    padding: 2%;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
 }
 
 .cardwhole{
