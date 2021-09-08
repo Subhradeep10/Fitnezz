@@ -116,18 +116,18 @@ hr{
     font-weight: bolder;
 }
 .slider{
-    max-width: 1150px;
+    max-width: 90%;
     display: flex;
 }
 .slider .card{
     background: rgb(255, 255, 255);
     flex: 1;
     margin: 50px 20px;
-    transition: 2s;
+    transition: 0.5s;
 }
 
 .slider .card .img{
-    height: 300px;
+    height: 500px;
     width: 100%;
     
 }
@@ -138,8 +138,8 @@ hr{
     object-fit: cover ;
 }
 
-.slider .card :hover{
-    transform: scale(1.1);
+.slider .card:hover{
+    transform: scale(1.15);
 }
 
 .card .content .title{
@@ -156,3 +156,9 @@ hr{
     align-items: center;
     background-color: rgb(255, 255, 255);
 }
+
+.featureclass{
+    height: 80vh;
+}
+
+.backtext
