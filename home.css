@@ -58,6 +58,7 @@
     text-align: center;
     margin: 250px auto;
     padding: 20px;
+    height: 100vh;
 }
 .head{
     font-size: 50px;
@@ -101,4 +102,5 @@
 hr{
     color: red;
     width: 10%;
+    text-align: center;
 }
