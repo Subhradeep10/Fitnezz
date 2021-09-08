@@ -124,3 +124,13 @@ hr{
     flex: 1;
     margin: 0px 10px;
 }
+
+.slider .card .img{
+    height: 200px;
+    width: 100%;
+}
+
+.slider .card .img img{
+    height: 100%;
+    width: 100%;
+}
