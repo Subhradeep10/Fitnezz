@@ -164,7 +164,7 @@ hr{
 
 .topscheduledclass{
     margin-top: 150px;
-    background-color: red;
+    background-color: rgb(245, 245, 245);
     text-align: center;
     font-family: 'Roboto Slab', serif;
     font-size: 4rem;
