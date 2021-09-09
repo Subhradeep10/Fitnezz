@@ -171,3 +171,30 @@ hr{
     padding: 2%;
     font-weight: bolder;
 }
+
+.firstrow{
+    display: flex;
+    padding: 5%;
+    
+}
+
+.firstrow .image{
+    height: 500px;
+    width: 90%;
+}
+
+.firstrow .image img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover ;
+}
+
+.firstrow .f-container{
+    height: 100%;
+    width: 100%;
+    object-fit: cover ;
+    padding: 5%;
+    justify-content: space-between;
+    
+}
+
