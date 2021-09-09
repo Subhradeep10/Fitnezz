@@ -35,7 +35,7 @@
     padding: 34px;
 }
 
-.btn{
+.btn2{
     background-color: purple;
     color: white;
     padding: 12px;
@@ -43,7 +43,7 @@
     border-radius: 5px;
     cursor: pointer;
 }
-.btn:hover{
+.btn2:hover{
     background-color: white;
     color: purple;
     padding: 12px;
