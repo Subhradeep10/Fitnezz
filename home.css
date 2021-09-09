@@ -172,6 +172,10 @@ hr{
     font-weight: bolder;
 }
 
+.container{
+    max-width: 2000px;
+}
+
 .firstrow{
     display: flex;
     padding: 5%;
