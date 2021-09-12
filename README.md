@@ -1,7 +1,7 @@
 ![Fitnezz](https://socialify.git.ci/Subhradeep10/Fitnezz/image?font=Bitter&forks=1&issues=1&language=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Light)
 
 <p align="center">
-  <a href="https://recess-it.web.app/">
+  <a href="https://subhradeep10.github.io/Fitnezz/">
     <img src="https://forthebadge.com/images/badges/check-it-out.svg">
    </a>
 </p>
