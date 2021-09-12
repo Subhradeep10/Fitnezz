@@ -6,6 +6,9 @@
    </a>
 </p>
 
+<h2 align= center> Tech Stacks used ✨ </h2>
+HTML , CSS , JAVASCRIPT
+
 <h2 align=center> 👨🏻‍💻 How to get started? </h2> 
 
 You can refer to the following articles on **_basics of Git and Github and also contact the Project Mentors, in case you are stuck_**:
