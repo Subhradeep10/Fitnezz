@@ -7,7 +7,10 @@
 </p>
 
 <h2 align= center> Tech Stacks used ✨ </h2>
-HTML , CSS , JAVASCRIPT
+
+<p align="center">
+  <img src="https://images.squarespace-cdn.com/content/v1/56b8dfcf62cd94ec072ddb33/1547134228418-XO27PTIE8BYNJCK3K7LS/htlm+css+and+js+logo.png?format=300w" alt="HTML, CSS, JavaScript Image"/>
+</p>
 
 <h2 align=center> 👨🏻‍💻 How to get started? </h2> 
 
