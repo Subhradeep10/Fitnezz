@@ -242,7 +242,74 @@ h1::after {
     transform: scale(1.1);
 }
 
+form{
+    border: 2px solid #000;
+    width: 280px;
+    height: 431px;
+    margin-left: 40%;
+    border-radius: 15px;
+}
 
+fieldset{ /* Fieldset is Inside the Form */
+    background-color: #fff;
+    width: 276px;
+    height: 428px;
+    border-radius: 15px;
+    outline: none;
+}
+
+#register-text{
+    margin-left: 30px;
+    font-size: xx-large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #eb2e6d;
+}
+
+.user-input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #eb2e6d;
+    height: 15px;
+}
+
+.user-input:focus{
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.group{
+    margin-left: 30px;
+}
+
+#submit-button{
+    outline: none;
+    border: 2px solid #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #eb2e6d;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 15px;
+}
+
+#name-id{
+    margin-top: 28px;
+}
+
+#main-form-inside{
+    margin-top: 25px;
+}
 
 @media screen and (min-width: 1260px) {
     .grid{
