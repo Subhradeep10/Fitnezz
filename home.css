@@ -329,7 +329,13 @@ label{
 footer{
     background-color: purple;
     padding-top: 50px;
-    height: 557px;
+    height: 590px;
+}
+
+#copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
 }
 
 
