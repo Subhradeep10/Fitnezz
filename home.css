@@ -44,6 +44,7 @@ h1::after {
     justify-content: space-between;
     width: 30px;
     height: 21px;
+    margin-top: 7px;
 }
 
 .toggle-button .bar {
@@ -60,14 +61,11 @@ h1::after {
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-}
-
-/* Add the code in comments in .header class if you need sticky header, else remove it :D
-    This doesn't affect responsiveness of Header, it will be responsive and fixed for other devices as well. Checked :D
-
     position: fixed;
     width: 100%;
-    z-index: 100; */
+    height: 80px;
+    z-index: 100;
+}
 
 .logo {
     font-size: 34px;
@@ -167,6 +165,10 @@ h1::after {
     transition: 0.5s;
     padding: 5px;
     border-radius: 5px;
+}
+
+.grid .card:hover{
+    transform: scale(1.1);
 }
 
 .grid .card .img{
@@ -347,6 +349,12 @@ footer{
         #register-text{
             font-size: 20px;
         }
+}
+
+@media screen and (max-width: 760px){
+    .grid .card:hover{
+        transform: scale(1);
+    }
 }
 
 @media screen and (min-width: 1260px) {
