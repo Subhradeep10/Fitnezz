@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    margin-top: 7px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: rgb(235, 46, 109);
+
+}
+
+.logo {
+    font-size: 34px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 1rem;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 18px;   
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+.navbar a:hover {
+    color: rgb(235, 46, 109);
+}
+
+.btn2{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 12px;
+    margin-right: 1rem;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.btn2:hover{ 
+    transform: scale(1.1);       
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1260px) {
+    .grid{
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 15px;
+    }
+
+    .navbar li a{
+        padding: 0px 34px;
+    }
+
+    .banner {
+        text-align: center;
+        max-width: 45%;
+    }
+}
+
+@media  screen and (max-width: 690px) {
+    .btn2 {
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        align-self: flex-start;
+    }
+
+    .navbar {
+        display: none;
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .navbar li{
+        padding: 16px 0;
+        background: rgb(24, 24, 24);
+        width: 100%;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+}
