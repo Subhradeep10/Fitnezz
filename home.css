@@ -23,6 +23,27 @@ h1 {
     position: relative;
 }
 
+h2 {
+    font-family: 'Roboto', serif;
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px 0px;
+    font-weight: bolder;
+    width: fit-content;
+    position: relative;
+}
+
+h2::after{
+        content: ' ';
+        display: block;
+        border: 5px solid purple;
+        border-radius: 4px;
+        width: 80%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+}
+
 h1::after {
     content: ' ';
     display: block;
