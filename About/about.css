@@ -79,6 +79,99 @@ body {
     cursor: pointer;
 }
 
+
+
+
+
+
+
+
+form{
+    border: 2px solid #000;
+    width: 280px;
+    height: 471px;
+    margin-left: 40%;
+    border-radius: 15px;
+    margin-left: 100px;
+}
+
+fieldset{ /* Fieldset is Inside the Form */
+    background-color: #fff;
+    width: 276px;
+    height: 468px;
+    border-radius: 15px;
+    outline: none;
+    padding-top: 20px;
+}
+
+#register-text{
+    margin-left: 30px;
+    font-size: xx-large;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: purple;
+}
+
+.user-input{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid purple;
+    height: 20px;
+    width: 180px;
+}
+
+.user-input:focus{
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.group{
+    margin-left: 30px;
+}
+
+#form-submit-button{
+    outline: none;
+    border: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: purple;
+    border-radius: 5px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+label{
+    font-size: 15px;
+}
+
+#name-id{
+    margin-top: 28px;
+}
+
+#main-form-inside{
+    margin-top: 25px;
+}
+
+footer{
+    background-color: purple;
+    padding-top: 50px;
+    height: 590px;
+}
+
+#copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+}
+
 @media screen and (min-width: 1260px) {
     .grid{
         grid-template-columns: repeat(4, 1fr);
