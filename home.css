@@ -330,25 +330,6 @@ footer{
     height: 557px;
 }
 
-
-    @media screen and (max-width: 476px) {
-        .user-input{
-          width: 75%;
-          margin-top: 0;
-        }
-        form{
-            width: 100%;
-            margin: 0;
-        }
-        fieldset{
-            width: 100%;
-        }
-
-        #register-text{
-            font-size: 20px;
-        }
-}
-
 @media screen and (min-width: 1260px) {
     .grid{
         grid-template-columns: repeat(4, 1fr);
@@ -414,6 +395,7 @@ footer{
         width: 100%;
     }
 
+    
     .navbar ul {
         display: flex;
         flex-direction: column;
