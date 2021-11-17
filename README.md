@@ -29,3 +29,20 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
+
+<h2 align="center"> Project Admin✨ </h2>
+<table align = "center">
+  <tr>
+    <td><img src ="https://avatars.githubusercontent.com/u/70656957?v=4" width="100px" height="100px"></td>
+  </tr>
+</table>
+
+<h2 align="center"> Contributors❤️</h2>
+<table align = "center">
+  <tr>
+    <td><img src ="https://avatars.githubusercontent.com/u/70656957?v=4" width="100px" height="100px"></td>
+    <td><img src ="https://avatars.githubusercontent.com/u/87576182?v=4" width="100px" height="100px"></td>
+    <td><img src = "https://avatars.githubusercontent.com/u/73193822?s=60&v=4" width="100px" height="100px"></td>
+  </tr>
+</table>
+ 
