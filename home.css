@@ -359,7 +359,6 @@ footer{
     font-size: 13px;
 }
 
-
     @media screen and (max-width: 476px) {
         .user-input{
           width: 75%;
@@ -449,6 +448,7 @@ footer{
         width: 100%;
     }
 
+    
     .navbar ul {
         display: flex;
         flex-direction: column;
