@@ -169,6 +169,11 @@ h1::after {
     border-radius: 5px;
 }
 
+.card:hover{
+    cursor: pointer;
+    transform: translate(40px,-50px);
+    box-shadow: 2px 2px 2px 2px rgb(7, 7, 7);
+}
 .grid .card .img{
     height: 350px;
     width: 100%; 
