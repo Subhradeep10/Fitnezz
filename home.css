@@ -276,7 +276,21 @@ fieldset{ /* Fieldset is Inside the Form */
     color: purple;
 }
 
+/* added new register form */
+.register_form{
+    padding-left: 2cm;
+    padding-bottom: 12cm;
+    padding-top: 1.2cm;
+    width: 28cm;
+    height: 8.5cm;
+    background-color: white;
+}
+
+
+
 .user-input{
+    padding-left: 5cm;
+    padding-top: 0.5cm;
     background: transparent;
     border: none;
     border-bottom: 2px solid purple;
@@ -289,6 +303,11 @@ fieldset{ /* Fieldset is Inside the Form */
     background: transparent;
     border: none;
     border-bottom: 2px solid #000;
+}
+
+#form-submit-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .group{
