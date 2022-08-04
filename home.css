@@ -82,11 +82,13 @@ h1::after {
 
 .navbar li{
     display: inline-block;
+
     font-size: 18px;   
     font-family: 'Fira Sans', sans-serif;
     position: relative;
     padding: 30px;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .navbar li a{
@@ -127,14 +129,14 @@ h1::after {
     transition: all 0.2s ease-in;
     font-family: 'Fira Sans', sans-serif;
 }
-.btn2:hover{ 
-    transform: scale(1.1);       
+.btn2:hover{
+    transform: scale(1.1);
     cursor: pointer;
 }
 .banner{
     color: white;
     display: block;
-    width: 90%; 
+    width: 90%;
     text-align: center;
 }
 .head{
@@ -197,7 +199,7 @@ h1::after {
 
 .grid .card .img{
     height: 350px;
-    width: 100%; 
+    width: 100%;
 }
 
 .grid .card .img img{
@@ -214,13 +216,17 @@ h1::after {
     flex-direction: column;
     align-items: center;
 }
-
+.card:hover{
+    cursor: pointer;
+    transform: translate(40px,-50px);
+    box-shadow: 2px 2px 2px 2px rgb(7, 7, 7);
+}
 .card p {
     font-weight: 600;
     padding: 15px 0;
 }
 
-.scheduledclass {
+.scheduledclass,.trainers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -232,7 +238,7 @@ h1::after {
     text-align: center;
 }
 
-.content .time {
+.content .time,.content .Certification {
     font-weight: 900;
     color: purple;
     display: block;
@@ -240,7 +246,7 @@ h1::after {
     margin: 10px 0;
 }
 
-.topscheduledclass{
+.topscheduledclass,.toptrainers{
     background-color: rgb(245, 245, 245);
     width: 100%;
     display: flex;
@@ -379,8 +385,8 @@ footer{
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 40px;
     }
-    
-} 
+
+}
 
 @media screen and (max-width: 960px) {
     .grid {
@@ -425,7 +431,7 @@ footer{
         top: -30px;
     }
 
-    
+
     .navbar ul {
         display: flex;
         flex-direction: column;
@@ -441,6 +447,3 @@ footer{
         font-size: 35px;
     }
 }
-
-
-
