@@ -51,6 +51,31 @@ You can refer to the following articles on **_basics of Git and Github and also 
    </td>
   </tr>
 </table>
+
+## Project Mentors:
+ 
+<table>
+	<tr>
+    <td align="center">
+            <a href="https://github.com/Atharv-110">
+              <img src="https://avatars3.githubusercontent.com/u/87393095?v=4" width="100px" alt=""/><br />
+              <sub><b>Atharv-110</b></sub>
+            </a>
+   </td>
+   <td align="center">
+            <a href="https://github.com/SachinMittal1766">
+              <img src="https://avatars0.githubusercontent.com/u/82721772?v=4" width="100px" alt=""/><br/>
+              <sub><b>Sachin Mittal</b></sub>
+	   </a>
+   </td>
+<td align="center">
+            <a href="https://github.com/TusharKesarwani">
+              <img src="https://avatars0.githubusercontent.com/u/92527686?v=4" width="100px" alt=""/><br/>
+              <sub><b>Tushar Kesarwani</b></sub>
+	   </a>
+   </td>
+  </tr>
+</table>
 <h2 align=center>Project Contributors⭐</h2> 
 <a href="https://github.com/Subhradeep10/Fitnezz/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Subhradeep10/Fitnezz" />
