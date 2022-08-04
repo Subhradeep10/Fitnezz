@@ -45,7 +45,7 @@ You can refer to the following articles on **_basics of Git and Github and also 
 	<tr>
     <td align="center">
             <a href="https://github.com/Subhradeep10">
-              <img src="https://avatars3.githubusercontent.com/u/45709641?v=4" width="100px" alt=""/><br />
+              <img src="https://avatars3.githubusercontent.com/u/70656957?v=4" width="100px" alt=""/><br />
               <sub><b>Subhradeep10</b></sub>
             </a>
    </td>
