@@ -52,8 +52,7 @@ You can refer to the following articles on **_basics of Git and Github and also 
   </tr>
 </table>
 
-## Project Mentors:
- 
+ <h2 align=center>Project Mentors</h2>
 <table>
 	<tr>
     <td align="center">
