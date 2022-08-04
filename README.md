@@ -10,7 +10,7 @@
 <h2 align= center> Tech Stacks used ✨ </h2>
 
 <p align="center">
-   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="400" height="400"/>
 </p>
 
 <h2 align=center> 👨🏻‍💻 How to get started? </h2> 
