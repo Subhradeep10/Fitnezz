@@ -35,4 +35,7 @@ You can refer to the following articles on **_basics of Git and Github and also 
 
 
 <h2 align=center>⭐Stars Chart</h2>  
-[![Stargazers over time](https://starchart.cc/Subhradeep10/Fitnezz.svg)](https://starchart.cc/Subhradeep10/Fitnezz))
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Subhradeep10/Fitnezz.svg)](https://starchart.cc/Subhradeep10/Fitnezz)
