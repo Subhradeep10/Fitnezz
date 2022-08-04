@@ -1,3 +1,5 @@
+
+
 * {
     padding: 0;
     margin: 0;
@@ -54,12 +56,15 @@ h1::after {
 }
 
 .header {
-    background: black;
+    background: #282b28;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    height: 70px;
 }
 
 /* Add the code in comments in .header class if you need sticky header, else remove it :D
@@ -78,17 +83,37 @@ h1::after {
 .navbar li{
     display: inline-block;
     font-size: 18px;   
+    font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
 .navbar li a{
     text-decoration: none;
     color: white;
     padding: 16px;
+    /* text-decoration: underline; */
 }
 
 .navbar a:hover {
     color: rgb(235, 46, 109);
 }
+
+.navbar a:before{
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: white;
+  position: relative;
+   width: 0%;
+  bottom:-30px;
+  transition: all ease-in-out 250ms;
+}
+
+.navbar a:hover:before{
+   width: 80%;
+} 
 
 .btn2{
     background-color: purple;
@@ -100,6 +125,7 @@ h1::after {
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.2s ease-in;
+    font-family: 'Fira Sans', sans-serif;
 }
 .btn2:hover{ 
     transform: scale(1.1);       
@@ -377,6 +403,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        width: 100%;
     }
 
     .logo {
@@ -387,12 +414,15 @@ footer{
         display: none;
         margin-top: 30px;
         width: 100%;
+        padding-bottom: 10px;
     }
 
     .navbar li{
-        padding: 16px 0;
+        padding: 20px;
         background: rgb(24, 24, 24);
         width: 100%;
+        margin-bottom: 0px;
+        top: -30px;
     }
 
     
