@@ -35,11 +35,9 @@ You can refer to the following articles on **_basics of Git and Github and also 
 
 
 <h2 align=center>⭐Stars Chart</h2>  
-(https://seladb.github.io/StarTrack-js/#/preload?r=Subhradeep10,Fitnezz)
-
+[![Stargazers over time](https://starchart.cc/Subhradeep10/Fitnezz.svg)](https://starchart.cc/Subhradeep10/Fitnezz)
 
 <h2 align=center>Project Contributors⭐</h2> 
 <a href="https://github.com/Subhradeep10/Fitnezz/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Subhradeep10/Fitnezz" />
 </a>
-Made with [contrib.rocks](https://contrib.rocks).
