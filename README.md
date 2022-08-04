@@ -32,3 +32,7 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
+
+
+<h2 align=center>⭐Stars Chart</h2>  
+(https://seladb.github.io/StarTrack-js/#/preload?r=Subhradeep10,Fitnezz)
