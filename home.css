@@ -289,6 +289,20 @@ h1::after {
     cursor: pointer;
 }
 
+.gallerySection .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.gallerySection .image-container .image:hover img{
+    transform: scale(1.2);
+
+}
+
+
+
 
 
 form{
