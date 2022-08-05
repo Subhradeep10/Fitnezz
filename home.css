@@ -301,7 +301,7 @@ h1::after {
 
 }
 
-.popup-img{
+.gallerySection .popup-img{
     position: fixed;
     top: 0; left: 0;
     background-color: rgba(0, 0, 0, 0.501);
@@ -310,14 +310,8 @@ h1::after {
     z-index: 100;
 }
 
-.popup-img img{
-    
-    height: 80%;
-    width: 80%;
-    object-fit: cover;
-}
 
- .popup-img span{
+.gallerySection .popup-img span{
     position: absolute;
     top: 0; right: 10px;
     font-size: 60px;
@@ -327,6 +321,16 @@ h1::after {
     z-index: 100;
 }
 
+
+.gallerySection .popup-img img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px  solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
 
 
 
@@ -445,6 +449,13 @@ footer{
     }
 }
 
+@media screen and (max-width: 768px) {
+    .gallerySection .popup-img img{
+        width: 95%;
+    }
+    
+}
+
 @media  screen and (max-width: 690px) {
     .btn2 {
         display: none;
@@ -491,6 +502,8 @@ footer{
     .head {
         font-size: 35px;
     }
+
+    
 }
 
 
