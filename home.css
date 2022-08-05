@@ -111,9 +111,15 @@ h1::after {
     width: 90%;
     text-align: center;
 }
+.subhead{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top:10px;
+}
 .head{
-    font-size: 50px;
-    padding: 20px;
+    font-size: 60px;
+    padding: 10px 20px 20px 20px;
+    font-weight: 900;
 }
 .topic{
     display: inline-block;
@@ -376,11 +382,21 @@ footer{
     .toggle-button {
         display: flex;
     }
-
+    
+    .subhead{
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .head{
+        font-size: 40px;
+    }
     .header{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+    }
+    .topic{
+        font-size: 15px;
     }
 
     .logo {
@@ -410,8 +426,7 @@ footer{
         display: flex;
     }
 
-    h1,
-    .head {
+    h1 {
         font-size: 35px;
     }
 }
