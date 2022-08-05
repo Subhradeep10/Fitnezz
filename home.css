@@ -75,12 +75,12 @@ h1::after {
     margin-left: 1rem;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
     font-size: 18px;
 }
 
-.navbar li a{
+.navbar li a {
     text-decoration: none;
     color: white;
     padding: 16px;
@@ -90,7 +90,7 @@ h1::after {
     color: rgb(235, 46, 109);
 }
 
-.btn2{
+.btn2 {
     background-color: purple;
     border: none;
     color: white;
@@ -101,26 +101,31 @@ h1::after {
     cursor: pointer;
     transition: all 0.2s ease-in;
 }
-.btn2:hover{
+
+.btn2:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
-.banner{
+
+.banner {
     color: white;
     display: block;
     width: 90%;
     text-align: center;
 }
-.head{
+
+.head {
     font-size: 50px;
     padding: 20px;
 }
-.topic{
+
+.topic {
     display: inline-block;
     font-size: 24px;
-    padding: 10px ;
+    padding: 10px;
 }
-.butns{
+
+.butns {
     background-color: transparent;
     color: white;
     font-size: 20px;
@@ -129,7 +134,8 @@ h1::after {
     cursor: pointer;
     margin-top: 10px;
 }
-.butns:hover{
+
+.butns:hover {
     background-color: white;
     color: black;
     font-size: 20px;
@@ -138,7 +144,7 @@ h1::after {
     cursor: pointer;
 }
 
-.body{
+.body {
     background: url('./images/bg.jpg') center top;
     background-repeat: no-repeat;
     height: 960px;
@@ -149,7 +155,7 @@ h1::after {
     align-items: center;
 }
 
-.featureclass{
+.featureclass {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -157,27 +163,28 @@ h1::after {
     justify-content: center;
 }
 
-.grid{
+.grid {
     max-width: 90%;
     display: grid;
     margin-top: 50px;
 }
-.grid .card{
+
+.grid .card {
     background: rgb(240, 239, 239);
     transition: 0.5s;
     padding: 5px;
     border-radius: 5px;
 }
 
-.grid .card .img{
+.grid .card .img {
     height: 350px;
     width: 100%;
 }
 
-.grid .card .img img{
+.grid .card .img img {
     height: 100%;
     width: 100%;
-    object-fit: cover ;
+    object-fit: cover;
     border-radius: 10px;
 }
 
@@ -188,17 +195,20 @@ h1::after {
     flex-direction: column;
     align-items: center;
 }
-.card:hover{
+
+.card:hover {
     cursor: pointer;
-    transform: translate(40px,-50px);
-    box-shadow: 2px 2px 2px 2px rgb(7, 7, 7);
+     transform: translateY(-2.2rem); 
+    box-shadow: 5px 5px purple, -1em 0 .5em gray;
 }
+
 .card p {
     font-weight: 600;
     padding: 15px 0;
 }
 
-.scheduledclass,.trainers {
+.scheduledclass,
+.trainers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -210,7 +220,8 @@ h1::after {
     text-align: center;
 }
 
-.content .time,.content .Certification {
+.content .time,
+.content .Certification {
     font-weight: 900;
     color: purple;
     display: block;
@@ -218,7 +229,8 @@ h1::after {
     margin: 10px 0;
 }
 
-.topscheduledclass,.toptrainers{
+.topscheduledclass,
+.toptrainers {
     background-color: rgb(245, 245, 245);
     width: 100%;
     display: flex;
@@ -237,7 +249,7 @@ h1::after {
     background: black;
 }
 
- .btn {
+.btn {
     margin-top: 10px;
     width: fit-content;
     font-size: 18px;
@@ -254,7 +266,7 @@ h1::after {
     transform: scale(1.1);
 }
 
-form{
+form {
     border: 2px solid #000;
     width: 280px;
     height: 471px;
@@ -263,7 +275,8 @@ form{
     margin-left: 100px;
 }
 
-fieldset{ /* Fieldset is Inside the Form */
+fieldset {
+    /* Fieldset is Inside the Form */
     background-color: #fff;
     width: 276px;
     height: 468px;
@@ -272,7 +285,7 @@ fieldset{ /* Fieldset is Inside the Form */
     padding-top: 20px;
 }
 
-#register-text{
+#register-text {
     margin-left: 30px;
     font-size: xx-large;
     font-weight: 600;
@@ -280,7 +293,7 @@ fieldset{ /* Fieldset is Inside the Form */
     color: purple;
 }
 
-.user-input{
+.user-input {
     background: transparent;
     border: none;
     border-bottom: 2px solid purple;
@@ -288,18 +301,18 @@ fieldset{ /* Fieldset is Inside the Form */
     width: 180px;
 }
 
-.user-input:focus{
+.user-input:focus {
     outline: none;
     background: transparent;
     border: none;
     border-bottom: 2px solid #000;
 }
 
-.group{
+.group {
     margin-left: 30px;
 }
 
-#form-submit-button{
+#form-submit-button {
     outline: none;
     border: 0;
     padding-left: 15px;
@@ -316,31 +329,31 @@ fieldset{ /* Fieldset is Inside the Form */
     cursor: pointer;
 }
 
-label{
+label {
     font-size: 15px;
 }
 
-#name-id{
+#name-id {
     margin-top: 28px;
 }
 
-#main-form-inside{
+#main-form-inside {
     margin-top: 25px;
 }
 
-footer{
+footer {
     background-color: purple;
     padding-top: 50px;
     height: 557px;
 }
 
 @media screen and (min-width: 1260px) {
-    .grid{
+    .grid {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 15px;
     }
 
-    .navbar li a{
+    .navbar li a {
         padding: 0px 34px;
     }
 
@@ -351,7 +364,7 @@ footer{
 }
 
 
-@media only screen and (min-width: 960px) and (max-width: 1260px ) {
+@media only screen and (min-width: 960px) and (max-width: 1260px) {
     .grid {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -368,7 +381,7 @@ footer{
     }
 }
 
-@media  screen and (max-width: 690px) {
+@media screen and (max-width: 690px) {
     .btn2 {
         display: none;
     }
@@ -377,7 +390,7 @@ footer{
         display: flex;
     }
 
-    .header{
+    .header {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -393,7 +406,7 @@ footer{
         width: 100%;
     }
 
-    .navbar li{
+    .navbar li {
         padding: 16px 0;
         background: rgb(24, 24, 24);
         width: 100%;
