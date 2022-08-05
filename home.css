@@ -171,7 +171,8 @@ h1::after {
 .grid .card{
     background: rgb(240, 239, 239);
     transition: 0.5s;
-    padding: 5px;
+    padding: 10px 5px;
+    
     border-radius: 5px;
 }
 
