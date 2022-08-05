@@ -258,7 +258,21 @@ h1::after {
 
 .gallerySection{
     text-align: center;
+    width: 100%;
+    justify-content: center;
 }
+
+.gallerySection .heading-gallery{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+
+
 
 
 form{
