@@ -255,6 +255,12 @@ h1::after {
     transform: scale(1.1);
 }
 
+
+.gallerySection{
+    text-align: center;
+}
+
+
 form{
     border: 2px solid #000;
     width: 280px;
