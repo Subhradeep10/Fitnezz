@@ -257,9 +257,12 @@ h1::after {
 
 
 .gallerySection{
+    position: relative;
     text-align: center;
     width: 100%;
     justify-content: center;
+    min-height: 100vh;
+    background-color: white;
 }
 
 .gallerySection .heading-gallery{
@@ -267,11 +270,24 @@ h1::after {
     width: 100%;
     display: flex;
     justify-content: center;
-   
-    
 }
 
+.gallerySection .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    padding: 10px;
+}
 
+.gallerySection .image-container .image{
+    height: 250px;
+    width: 350px;
+    border: 10px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+}
 
 
 
