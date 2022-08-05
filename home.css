@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -110,15 +114,37 @@ h1::after {
     display: block;
     width: 90%;
     text-align: center;
+    position: relative;
+    left: -320px;
+    opacity: 0;
+    animation: slide_in 1.5s linear forwards;
+}
+@keyframes slide_in {
+    0%{
+        transform: translateX(0px);
+        opacity: 0;
+
+    }100%{
+        transform: translateX(300px);
+        opacity: 1;
+    }
+}
+.subhead{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top:10px;
 }
 .head{
-    font-size: 50px;
+    font-size: 55px;
     padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    word-spacing: 10px;
 }
 .topic{
     display: inline-block;
-    font-size: 24px;
+    font-size: 26px;
     padding: 10px ;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .butns{
     background-color: transparent;
@@ -128,6 +154,8 @@ h1::after {
     border: 1px white solid;
     cursor: pointer;
     margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Archivo', sans-serif;
 }
 .butns:hover{
     background-color: white;
@@ -136,6 +164,14 @@ h1::after {
     padding: 15px;
     border: 1px black solid;
     cursor: pointer;
+}
+.butns_link{
+    color: white;
+    text-decoration: none;
+}
+.butns_link:hover{
+    color: black;
+    text-decoration: none;
 }
 
 .body{
@@ -165,7 +201,8 @@ h1::after {
 .grid .card{
     background: rgb(240, 239, 239);
     transition: 0.5s;
-    padding: 5px;
+    padding: 10px 5px;
+    
     border-radius: 5px;
 }
 
@@ -376,11 +413,21 @@ footer{
     .toggle-button {
         display: flex;
     }
-
+    
+    .subhead{
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .head{
+        font-size: 40px;
+    }
     .header{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+    }
+    .topic{
+        font-size: 15px;
     }
 
     .logo {
@@ -410,8 +457,7 @@ footer{
         display: flex;
     }
 
-    h1,
-    .head {
+    h1 {
         font-size: 35px;
     }
 }
