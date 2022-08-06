@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -64,7 +68,6 @@ h1::after {
 
 /* Add the code in comments in .header class if you need sticky header, else remove it :D
     This doesn't affect responsiveness of Header, it will be responsive and fixed for other devices as well. Checked :D
-
     position: fixed;
     width: 100%;
     z-index: 100; */
@@ -77,7 +80,7 @@ h1::after {
 
 .navbar li{
     display: inline-block;
-    font-size: 18px;   
+    font-size: 18px;
 }
 
 .navbar li a{
@@ -101,24 +104,46 @@ h1::after {
     cursor: pointer;
     transition: all 0.2s ease-in;
 }
-.btn2:hover{ 
-    transform: scale(1.1);       
+.btn2:hover{
+    transform: scale(1.1);
     cursor: pointer;
 }
 .banner{
     color: white;
     display: block;
-    width: 90%; 
+    width: 90%;
     text-align: center;
+    position: relative;
+    left: -320px;
+    opacity: 0;
+    animation: slide_in 1.5s linear forwards;
+}
+@keyframes slide_in {
+    0%{
+        transform: translateX(0px);
+        opacity: 0;
+
+    }100%{
+        transform: translateX(300px);
+        opacity: 1;
+    }
+}
+.subhead{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top:10px;
 }
 .head{
-    font-size: 50px;
+    font-size: 55px;
     padding: 20px;
+    font-family: 'Abril Fatface', cursive;
+    word-spacing: 10px;
 }
 .topic{
     display: inline-block;
-    font-size: 24px;
+    font-size: 26px;
     padding: 10px ;
+    font-family: 'Nunito Sans', sans-serif;
 }
 .butns{
     background-color: transparent;
@@ -128,6 +153,8 @@ h1::after {
     border: 1px white solid;
     cursor: pointer;
     margin-top: 10px;
+    border-radius: 10px;
+    font-family: 'Archivo', sans-serif;
 }
 .butns:hover{
     background-color: white;
@@ -136,6 +163,14 @@ h1::after {
     padding: 15px;
     border: 1px black solid;
     cursor: pointer;
+}
+.butns_link{
+    color: white;
+    text-decoration: none;
+}
+.butns_link:hover{
+    color: black;
+    text-decoration: none;
 }
 
 .body{
@@ -165,18 +200,14 @@ h1::after {
 .grid .card{
     background: rgb(240, 239, 239);
     transition: 0.5s;
-    padding: 5px;
+    padding: 10px 5px;
+    
     border-radius: 5px;
 }
 
-.card:hover{
-    cursor: pointer;
-    transform: translate(40px,-50px);
-    box-shadow: 2px 2px 2px 2px rgb(7, 7, 7);
-}
 .grid .card .img{
     height: 350px;
-    width: 100%; 
+    width: 100%;
 }
 
 .grid .card .img img{
@@ -193,13 +224,17 @@ h1::after {
     flex-direction: column;
     align-items: center;
 }
-
+.card:hover {
+    cursor: pointer;
+     transform: translateY(-2.2rem); 
+    box-shadow: 5px 5px purple, -1em 0 .5em gray;
+}
 .card p {
     font-weight: 600;
     padding: 15px 0;
 }
 
-.scheduledclass {
+.scheduledclass,.trainers {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -211,7 +246,7 @@ h1::after {
     text-align: center;
 }
 
-.content .time {
+.content .time,.content .Certification {
     font-weight: 900;
     color: purple;
     display: block;
@@ -219,7 +254,7 @@ h1::after {
     margin: 10px 0;
 }
 
-.topscheduledclass{
+.topscheduledclass,.toptrainers{
     background-color: rgb(245, 245, 245);
     width: 100%;
     display: flex;
@@ -439,8 +474,8 @@ footer{
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 40px;
     }
-    
-} 
+
+}
 
 @media screen and (max-width: 960px) {
     .grid {
@@ -465,11 +500,21 @@ footer{
     .toggle-button {
         display: flex;
     }
-
+    
+    .subhead{
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .head{
+        font-size: 40px;
+    }
     .header{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+    }
+    .topic{
+        font-size: 15px;
     }
 
     .logo {
@@ -488,7 +533,7 @@ footer{
         width: 100%;
     }
 
-    
+
     .navbar ul {
         display: flex;
         flex-direction: column;
@@ -499,13 +544,9 @@ footer{
         display: flex;
     }
 
-    h1,
-    .head {
+    h1 {
         font-size: 35px;
     }
 
-    
 }
-
-
 

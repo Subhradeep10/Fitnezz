@@ -10,7 +10,9 @@
 <h2 align= center> Tech Stacks used ✨ </h2>
 
 <p align="center">
-  <img src="https://images.squarespace-cdn.com/content/v1/56b8dfcf62cd94ec072ddb33/1547134228418-XO27PTIE8BYNJCK3K7LS/htlm+css+and+js+logo.png?format=300w" alt="HTML, CSS, JavaScript Image"/>
+   <a href="https://www.W3schools.com/html/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="100" height="100"/></a>
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="100" height="100"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://cdn.cdnlogo.com/logos/j/69/javascript.svg" alt="JS" width="80" height="80"/></a>
 </p>
 
 <h2 align=center> 👨🏻‍💻 How to get started? </h2> 
@@ -30,3 +32,51 @@ You can refer to the following articles on **_basics of Git and Github and also 
 - Fork the Repo and create a Branch for any Issue that you are working upon.
 - Create a Pull Request which will be promptly reviewed and suggestions would be added to improve it.
 - Add Screenshots to help us know what this Script is all about.
+
+
+<h2 align=center>⭐Stars Chart</h2>  
+
+## Stargazers over time
+
+[![Stargazers over time](https://starchart.cc/Subhradeep10/Fitnezz.svg)](https://starchart.cc/Subhradeep10/Fitnezz)
+
+<h2 align=center>Project Admin</h2> 
+<table>
+	<tr>
+    <td align="center">
+            <a href="https://github.com/Subhradeep10">
+              <img src="https://avatars3.githubusercontent.com/u/70656957?v=4" width="100px" alt=""/><br />
+              <sub><b>Subhradeep10</b></sub>
+            </a>
+   </td>
+  </tr>
+</table>
+
+ <h2 align=center>Project Mentors</h2>
+<table>
+	<tr>
+    <td align="center">
+            <a href="https://github.com/Atharv-110">
+              <img src="https://avatars3.githubusercontent.com/u/87393095?v=4" width="100px" alt=""/><br />
+              <sub><b>Atharv-110</b></sub>
+            </a>
+   </td>
+   <td align="center">
+            <a href="https://github.com/SachinMittal1766">
+              <img src="https://avatars0.githubusercontent.com/u/82721772?v=4" width="100px" alt=""/><br/>
+              <sub><b>Sachin Mittal</b></sub>
+	   </a>
+   </td>
+<td align="center">
+            <a href="https://github.com/TusharKesarwani">
+              <img src="https://avatars0.githubusercontent.com/u/92527686?v=4" width="100px" alt=""/><br/>
+              <sub><b>Tushar Kesarwani</b></sub>
+	   </a>
+   </td>
+  </tr>
+</table>
+
+<h2 align=center>Project Contributors⭐</h2> 
+<a href="https://github.com/Subhradeep10/Fitnezz/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Subhradeep10/Fitnezz" />
+</a>
