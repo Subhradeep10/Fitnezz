@@ -63,7 +63,7 @@ h1::after {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 8px 0;
 }
 
 /* Add the code in comments in .header class if you need sticky header, else remove it :D
@@ -86,7 +86,7 @@ h1::after {
 .navbar li a{
     text-decoration: none;
     color: white;
-    padding: 16px;
+    padding: 28px;
 }
 
 .navbar a:hover {
@@ -174,8 +174,11 @@ h1::after {
 }
 
 .body{
-    background: url('./images/bg.jpg') center top;
-    background-repeat: no-repeat;
+    /* background-color: #000; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* background: url('./images/bg.jpg') center top;
+    background-repeat: no-repeat; */
     height: 960px;
     margin-top: 0px;
     padding: 10px;
@@ -593,4 +596,10 @@ footer{
     height: 100px;
     padding: 21px;
     
+}
+.carousel-inner .carousel-item .d-block{
+    height: 678px;
+}
+.carousel-inner .carousel-item h5{
+    font-size: 61px;
 }
