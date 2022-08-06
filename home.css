@@ -484,7 +484,7 @@ label{
 footer{
     background-color: purple;
     padding-top: 50px;
-    height: 557px;
+    height: 617px;
 }
 
 @media screen and (min-width: 1260px) {
@@ -582,4 +582,15 @@ footer{
     h1 {
         font-size: 35px;
     }
+}
+.social{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: wrap;
+}
+.social a img{
+    height: 100px;
+    padding: 21px;
+    
 }
