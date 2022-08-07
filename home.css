@@ -374,6 +374,13 @@ transform: translateY(0px);
 
 
 }
+
+.card1 .info p{
+    font-size: 15px;
+    text-align: center;
+    padding: 0.7em;
+    line-height: 18px;
+}
 .card1 .info .btn{
     text-decoration: none;
     padding: 0.5rem 1rem;
