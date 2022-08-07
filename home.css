@@ -172,33 +172,93 @@ h1::after {
     padding: 10px ;
     font-family: 'Nunito Sans', sans-serif;
 }
-.butns{
-    background-color: transparent;
-    color: white;
-    font-size: 20px;
-    padding: 15px;
-    border: 1px white solid;
-    cursor: pointer;
-    margin-top: 10px;
-    border-radius: 10px;
-    font-family: 'Archivo', sans-serif;
-}
-.butns:hover{
-    background-color: white;
-    color: black;
-    font-size: 20px;
-    padding: 15px;
-    border: 1px black solid;
-    cursor: pointer;
-}
-.butns_link{
-    color: white;
-    text-decoration: none;
-}
-.butns_link:hover{
-    color: black;
-    text-decoration: none;
-}
+
+.butns, .butns::after {
+    width: 280px;
+    height: 64px;
+    font-size: 25px;
+    background: linear-gradient(45deg, transparent 5%, #ce49da 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 68px;
+    box-shadow: 6px 0px 0px #000000;
+    outline: transparent;
+    position: relative;
+    margin-top: 40px;
+  }
+  
+  button::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    
+    content: 'Join Today';
+    display: block;
+    position: absolute;
+    top: -120px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #000000 3%, #00E6F6 5%, #FF013C 5%);
+    text-shadow: -3px -3px 0px #F8F005, 3px 3px 0px #00E6F6;
+    clip-path: var(--slice-0);
+  }
+  
+  button:hover::after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+  }
+  
+  @keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  }
 
 .body{
     background: url('./images/bg.jpg') center top;
