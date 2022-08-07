@@ -434,6 +434,87 @@ transform: translateY(0px);
     transform: scale(1.1);
 }
 
+
+.gallerySection{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: white;
+}
+
+.gallerySection .heading-gallery{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gallerySection .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.gallerySection .image-container .image{
+    height: 250px;
+    width: 350px;
+    border: 10px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallerySection .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.gallerySection .image-container .image:hover img{
+    transform: scale(1.2);
+
+}
+
+.gallerySection .popup-img{
+    position: fixed;
+    top: 0; left: 0;
+    background-color: rgba(0, 0, 0, 0.755);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+
+.gallerySection .popup-img span{
+    position: absolute;
+    top: 0; right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+
+
+.gallerySection .popup-img img{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px  solid #fff;
+    border-radius: 5px;
+    width: 750px;
+    object-fit: cover;
+}
+
+
+
+
 form{
     border: 2px solid #000;
     width: 280px;
@@ -551,6 +632,13 @@ footer{
     }
 }
 
+@media screen and (max-width: 768px) {
+    .gallerySection .popup-img img{
+        width: 95%;
+    }
+    
+}
+
 @media  screen and (max-width: 690px) {
     .btn2 {
         display: none;
@@ -613,4 +701,6 @@ footer{
     h1 {
         font-size: 35px;
     }
+
 }
+
