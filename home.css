@@ -30,9 +30,10 @@ h1 {
 h1::after {
   content: " ";
   display: block;
-  border: 5px solid purple;
+  background-color: purple;
   border-radius: 4px;
   width: 80%;
+  height: 10px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
