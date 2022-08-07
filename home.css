@@ -452,6 +452,12 @@ h1::after {
   box-shadow: 5px 5px purple, -1em 0 0.5em gray;
 }
 
+.card2:hover {
+  cursor: pointer;
+  transform: translateY(-2.2rem);
+  box-shadow: 5px 5px purple, -1em 0 0.5em gray;
+}
+
 form {
   border: 2px solid #000;
   width: 280px;
@@ -517,6 +523,12 @@ fieldset {
 
 label {
   font-size: 15px;
+}
+
+.scheduledclass .img {
+  width: 400px;
+  height: 350px;
+  /* background: black; */
 }
 
 .scheduledclass .img {
