@@ -908,12 +908,20 @@ footer {
     grid-template-rows: repeat(1fr, 4);
     grid-gap: 40px;
   }
+  .body{
+    background-size: 100% 100%;
+    height: 907px;
+  }
+  
 }
 
 @media screen and (max-width: 690px) {
   .btn2 {
     display: none;
   }
+  .body {
+    background-size: 77vh 99vh;
+}
 
   .toggle-button {
     display: flex;
