@@ -95,6 +95,7 @@ h1::after {
     text-decoration: none;
     color: white;
     padding: 28px;
+  transition: 250ms ease-in-out;
 
 }
 
