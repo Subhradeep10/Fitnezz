@@ -1173,11 +1173,13 @@ footer {
 }
 
 /* css for footer */
-
+.footer {
+  height: 70px;
+}
 .container-footer {
   margin: auto;
   padding-top: 40px;
-  background-color: aliceblue;
+  background-color: white;
 }
 .row {
   display: flex;
@@ -1216,8 +1218,8 @@ footer {
   transform: scale(1.2);
   margin: 5px;
 }
-.socials i:hover{
-  background-color: rgba(150, 21, 150, 0.40);
+.socials i:hover {
+  background-color: rgba(150, 21, 150, 0.4);
 }
 ul {
   list-style: none;
@@ -1296,7 +1298,7 @@ ul {
   .footer-bottom {
     flex-direction: column;
   }
-  .footer-bottom .left-corner{
+  .footer-bottom .left-corner {
     width: 424px;
     text-align: center;
     margin-bottom: 25px;
