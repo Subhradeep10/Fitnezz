@@ -1171,12 +1171,13 @@ footer {
 .card3:hover .card-inner {
   transform: rotateY(-180deg);
 }
-footer {
-  max-height: 60vh;
-}
+
+/* css for footer */
+
 .container-footer {
   margin: auto;
   padding-top: 40px;
+  background-color: aliceblue;
 }
 .row {
   display: flex;
@@ -1201,21 +1202,25 @@ footer {
 }
 .socials i {
   color: palevioletred;
-  font-size: 20px;
-  padding: 10px;
+  font-size: 18px;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
   border: 2px plum solid;
   text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.2);
+  margin: 5px;
+}
+.socials i:hover{
+  background-color: rgba(150, 21, 150, 0.40);
 }
 ul {
   list-style: none;
-}
-.footer {
-  background-color: whitesmoke;
-  padding-top: 70px;
 }
 .footer-col {
   padding: 0 15px;
@@ -1245,26 +1250,26 @@ ul {
 .num {
   font-size: 26px;
 }
-.footer-bottom{
+.footer-bottom {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   padding: 10px;
 }
-.left-corner p{
+.left-corner p {
   margin-left: 45px;
   text-transform: capitalize;
 }
-.left-corner span{
+.left-corner span {
   text-transform: capitalize;
   font-weight: bolder;
 }
-.right-corner{
+.right-corner {
   display: flex;
   justify-content: space-between;
 }
-.right-corner p{
+.right-corner p {
   margin: 10px 35px;
 }
 /*responsive*/
@@ -1273,7 +1278,7 @@ ul {
     justify-content: center;
   }
   .one {
-    min-width: 100vh;
+    min-width: 100vw;
     text-align: center;
   }
   .footer-col {
@@ -1286,5 +1291,14 @@ ul {
   .footer-col {
     text-align: center;
     width: 100%;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-bottom .left-corner{
+    width: 424px;
+    text-align: center;
+    margin-bottom: 25px;
   }
 }
