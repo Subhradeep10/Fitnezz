@@ -221,19 +221,21 @@ h1::after {
 .grid {
   max-width: 90%;
   display: grid;
-  margin-top: 50px;
+  margin: 50px auto;
+  grid-template-columns: (3, 1fr);
 }
 .grid .card {
   background: rgb(240, 239, 239);
   transition: 0.5s;
-  padding: 10px 5px;
-
-  border-radius: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .grid .card .img {
-  height: 350px;
+  height: 250px;
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .grid .card .img img {
@@ -251,8 +253,9 @@ h1::after {
 }
 .card:hover {
   cursor: pointer;
-  transform: translateY(-2.2rem);
-  box-shadow: 5px 5px purple, -1em 0 0.5em gray;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgb(235, 46, 109) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 .card p {
   font-weight: 600;
@@ -394,20 +397,6 @@ h1::after {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.grid {
-  max-width: 90%;
-  display: grid;
-  margin-top: 50px;
-}
-/* till now  */
-.grid .card {
-  background: rgb(240, 239, 239);
-  transition: 0.5s;
-  padding: 10px 5px;
-
-  border-radius: 5px;
 }
 
 .topscheduledclass,
@@ -878,8 +867,8 @@ footer {
 
 @media screen and (min-width: 1260px) {
   .grid {
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
   }
 
   .navbar li a {
