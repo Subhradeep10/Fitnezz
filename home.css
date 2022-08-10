@@ -242,11 +242,12 @@ h1::after {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .card .content {
-  padding: 15px 10px;
+  padding: 15px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -257,46 +258,46 @@ h1::after {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgb(235, 46, 109) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.card p {
+.content .title {
+  font-family: "poppins";
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
+.content .time {
+  font-size: 16px;
   font-weight: 600;
+}
+
+.content p {
+  font-weight: 500;
+  font-size: 17px;
   padding: 15px 0;
-}
-/* to be deleted  */
-/* .featureclass{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  height: 130px;
+  color: rgb(31, 31, 31);
 }
 
-
-.scheduledclass,
-.trainers {
+/* trainers section */
+.trainers-content {
+  padding: 15px 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.content .title {
+.trainers-content .title {
   font-family: "poppins";
   font-size: 24px;
+  font-weight: 700;
   text-align: center;
 }
+.trainers-content p {
+  font-weight: 500;
+  font-size: 17px;
+  padding: 15px 0;
+  height: 200px;
+  color: rgb(31, 31, 31);
+}
 
-.content .time,
-.content .Certification {
-  font-weight: 900;
-  color: purple;
-  display: block;
-  text-align: center;
-  margin: 10px 0;}
-
-.grid{
-    max-width: 90%;
-    display: grid;
-    margin-top: 50px;
-} */
 .grid .card2 {
   background: rgb(240, 239, 239);
   transition: 0.5s;
@@ -883,21 +884,98 @@ footer {
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
   .grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 40px;
+  }
+  .grid .card .img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card .content {
+    padding: 15px 10px;
+  }
+  .content .title {
+    font-size: 20px;
+  }
+  .content .time {
+    font-size: 14px;
+  }
+
+  .content p {
+    font-size: 15px;
+    padding: 10px 0;
+    height: 130px;
   }
 }
 
 @media screen and (max-width: 960px) {
   .grid {
-    grid-template-columns: auto;
-    grid-template-rows: repeat(1fr, 4);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 40px;
+  }
+  .grid .card .img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card .content {
+    padding: 15px 10px;
+  }
+  .content .title {
+    font-size: 18px;
+  }
+  .content .time {
+    font-size: 12px;
+  }
+
+  .content p {
+    font-size: 14px;
+    padding: 10px 0;
+    height: 115px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 690px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+    place-items: center;
+  }
+  .grid .card {
+    width: 340px;
+  }
+  .grid .card .img {
+    height: 200px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .card .content {
+    padding: 15px 10px;
+  }
+  .content .title {
+    font-size: 16px;
+  }
+  .content .time {
+    font-size: 12px;
+  }
+
+  .content p {
+    font-size: 12px;
+    padding: 10px 0;
+    height: 80px;
+    text-align: center;
+  }
   .btn2 {
     display: none;
   }
