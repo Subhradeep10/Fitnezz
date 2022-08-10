@@ -1245,6 +1245,28 @@ ul {
 .num {
   font-size: 26px;
 }
+.footer-bottom{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px;
+}
+.left-corner p{
+  margin-left: 45px;
+  text-transform: capitalize;
+}
+.left-corner span{
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.right-corner{
+  display: flex;
+  justify-content: space-between;
+}
+.right-corner p{
+  margin: 10px 35px;
+}
 /*responsive*/
 @media (max-width: 1130px) {
   .socials {
