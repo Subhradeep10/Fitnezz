@@ -1078,7 +1078,7 @@ footer {
   display: flex;
   gap: 10px;
 }
-.socials img{
+.socials img {
   transform: scale(0.8);
 }
 .carousel-inner .carousel-item .d-block {
@@ -1171,65 +1171,98 @@ footer {
 .card3:hover .card-inner {
   transform: rotateY(-180deg);
 }
-
-.footer {
-  background-color: hsl(0, 0%, 98%);
-  padding-top: 150px;
+footer {
+  max-height: 60vh;
 }
-.wrapper {
-  width: 100vw;
+.container-footer {
+  margin: auto;
+  padding-top: 40px;
 }
-.first {
-  margin-left: 65px;
-  margin-right: 110px;
-  line-height: 2;
+.row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 70px;
 }
-.box {
-  float: left;
-  width: 18%;
+.one {
+  max-width: 20%;
 }
-.box ul li {
-  font-size: 16px;
+.one img {
+  width: 200px;
+  margin-bottom: 20px;
 }
-h3 {
-  font-size: 22px;
-  font-weight: 400;
-  font-weight: bolder;
-  margin-bottom: 10px;
+.one p {
+  margin-top: 10px;
+  font-size: 20px;
 }
 .socials {
-  margin-top: 15px;
-}
-.box ul li {
-  list-style: none;
-  line-height: 2.5;
-}
-
-.footer-bottom p span {
-  font-weight: bold;
-}
-
-.footer-bottom {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 60px;
-  margin-right: 80px;
-  font-size: 18px;
-  position: relative;
-  bottom: 25px;
-}
-.footer-bottom .left{
-  margin-left: 20px;
-}
-.footer-bottom .right {
-  display: flex;
-  margin-right: 60px;
+  margin-top: 25px;
   justify-content: flex-start;
-  gap: 30px;
 }
-.num{
+.socials i {
+  color: palevioletred;
+  font-size: 20px;
+  padding: 10px;
+  border: 2px plum solid;
+  text-align: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+ul {
+  list-style: none;
+}
+.footer {
+  background-color: whitesmoke;
+  padding-top: 70px;
+}
+.footer-col {
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 26px;
+  color: black;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: bold;
+  position: relative;
+}
+
+.footer-col ul li {
+  line-height: 2.5;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.footer-col a {
+  color: #000;
+  text-decoration: none;
+}
+.schedule p,
+.schedule h4:last-child {
+  font-size: 20px;
+}
+.num {
   font-size: 26px;
 }
-.schedule p{
-  font-size: 14px;
+/*responsive*/
+@media (max-width: 1130px) {
+  .socials {
+    justify-content: center;
+  }
+  .one {
+    min-width: 100vh;
+    text-align: center;
+  }
+  .footer-col {
+    width: calc(100vh / 4);
+    padding: 10px;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .footer-col {
+    text-align: center;
+    width: 100%;
+  }
 }
