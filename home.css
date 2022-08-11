@@ -91,19 +91,18 @@ h1::after {
   margin-bottom: 20px;
   font-size: 18px;
 }
-<<<<<<< HEAD
+
 .navbar li a {
   text-decoration: none;
   color: white;
   padding: 28px;
-=======
+}
 
 .navbar li a {
   text-decoration: none;
   color: white;
   padding: 16px;
   /* text-decoration: underline; */
->>>>>>> 1c14526d29ce535c3e61e3faa78f2f3161350f3b
 }
 
 .navbar a:hover {
@@ -265,7 +264,6 @@ h1::after {
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgb(235, 46, 109) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-<<<<<<< HEAD
 
 .body {
   /* background-color: #000; */
@@ -289,13 +287,13 @@ h1::after {
 .card p {
   font-weight: 600;
   padding: 15px 0;
-=======
+}
 .content .title {
   font-family: "poppins";
   font-size: 24px;
   font-weight: 700;
   text-align: center;
->>>>>>> 1c14526d29ce535c3e61e3faa78f2f3161350f3b
+
 }
 .content .time {
   font-size: 16px;
@@ -692,7 +690,6 @@ label {
   padding: 10px;
 }
 
-<<<<<<< HEAD
 fieldset {
   /* Fieldset is Inside the Form */
   background-color: #fff;
@@ -705,8 +702,6 @@ fieldset {
 .gallerySection .image-container .image:hover img {
   transform: scale(1.2);
 }
-=======
->>>>>>> 1c14526d29ce535c3e61e3faa78f2f3161350f3b
 .gallerySection .heading-gallery {
   background-color: rgb(245, 245, 245);
 }
@@ -818,14 +813,12 @@ fieldset {
   color: white;
 }
 
-<<<<<<< HEAD
 footer {
   background-color: purple;
   padding-top: 50px;
   height: 617px;
 }
-=======
->>>>>>> 1c14526d29ce535c3e61e3faa78f2f3161350f3b
+
 .accordion__title.active .x7 {
   transform: rotate(-90deg);
 }
@@ -974,11 +967,11 @@ footer {
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 40px;
   }
-<<<<<<< HEAD
+
   .body {
     background-size: 100% 100%;
     height: 907px;
-=======
+  }
   .grid .card .img {
     height: 200px;
     width: 100%;
@@ -1001,7 +994,6 @@ footer {
     padding: 10px 0;
     height: 115px;
     text-align: center;
->>>>>>> 1c14526d29ce535c3e61e3faa78f2f3161350f3b
   }
 }
 
@@ -1041,12 +1033,11 @@ footer {
   .btn2 {
     display: none;
   }
-<<<<<<< HEAD
+
   .body {
     background-size: 77vh 99vh;
   }
-=======
->>>>>>> 1c14526d29ce535c3e61e3faa78f2f3161350f3b
+
 
   .toggle-button {
     display: flex;
@@ -1103,7 +1094,7 @@ footer {
   .gallerySection .popup-img img {
     width: 95%;
   }
-<<<<<<< HEAD
+
 }
 
 @media screen and (max-width: 690px) {
@@ -1396,7 +1387,7 @@ ul {
     width: 424px;
     text-align: center;
     margin-bottom: 25px;
-=======
+}
 }
 
 @media screen and (max-width: 690px) {
@@ -1481,6 +1472,5 @@ ul {
     width: 100%;
     min-height: auto;
     margin-left: 0;
->>>>>>> 1c14526d29ce535c3e61e3faa78f2f3161350f3b
   }
 }
