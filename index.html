@@ -518,7 +518,7 @@
 
   <footer>
 
-    <form>
+    <!-- <form>
       <fieldset>
         <span id="register-text">Registration</span>
         <div id="main-form-inside"></div>
@@ -531,7 +531,7 @@
           <label for="Gender">Gender</label> <br>
           <input type="text" id="Gender" name="Gender" class="user-input" required>
           <option>
-            <br> <br>
+            <br> <br> -->
             <!--
                 Gender in DropDown Menu (You can use this as well :D)
                 <select id="Gender" name="Gender" class="user-input" required>
@@ -541,7 +541,7 @@
                 <option value="male">Other</option>
                 </select>
                 -->
-          </option>
+          <!-- </option>
         </div>
 
         <div class="group">
@@ -570,6 +570,29 @@
         </div>
         <div id="form-inside"></div>
       </fieldset>
+    </form>
+    <br />
+    <br /> -->
+    <form action="/action_page.php">
+      <div class="container">
+        <h1>Registration</h1>
+         <label for="name"><b>Your Name</b></label>
+        <input type="text" placeholder="Enter your name" name="name" id="name" maxlength="50" required>
+         <label for="gender"><b>Gender</b></label><br>
+        <select type="text" placeholder="Male" name="gender" id="gender" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+        <label for="age"><b>Age</b></label>
+        <input pattern="\d*" placeholder="Enter age" name="age" id="age" maxlength="3" required>
+        <label for="email"><b>Email</b></label>
+        <input type="email" placeholder="Enter email" name="email" id="email" maxlength="254" required>
+        <label for="contact"><b>Contact</b></label>
+        <input type="text" placeholder="Enter contact" name="contact" id="contact" maxlength="15" minlength="10" required>
+        <hr>
+        <button type="submit" class="registerbtn">Register</button>
+      </div> 
     </form>
     <br />
     <br />
