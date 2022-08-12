@@ -328,6 +328,26 @@ footer{
     background-color: purple;
     padding-top: 50px;
     height: 557px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.question{
+    color: white;
+}
+
+.question p{
+    margin-top: 2%;
+}
+
+.question i{
+    font-size: 30px;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.question .fa-brands:hover{
+    color: black;
 }
 
 @media screen and (min-width: 1260px) {
@@ -410,6 +430,7 @@ footer{
     .head {
         font-size: 35px;
     }
+
 }
 
 
