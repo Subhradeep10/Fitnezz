@@ -1,81 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fitnezz | Join In</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="join.css" />
-    <link rel="stylesheet" href="home.css" />
-  </head>
-  <body>
-    <header class="header">
-      <a href="./index.html" style="text-decoration: none; color: inherit"
-        ><div class="logo">Fitne<span style="color: purple">zz</span></div></a
-      >
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar">
-        <ul>
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">News</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="join.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">
+                    Fitnezz
+                </h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/index.html">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <!-- <li><a href="#">VAIBHAV</a></li> -->
+                </ul>
+            </div>
+            <!-- <div class="search">
 
-      <div class="button">
-        <button class="btn2 grow">Become a member</button>
-      </div>
-    </header>
-
-    <section class="signin_container">
-      <div class="sign_in_container">
-        <h2 class="join_in_header">JOIN IN</h2>
-
-        <label for=""></label>
-        <input
-          type="email"
-          name="email_id"
-          id="#email_id"
-          placeholder="EMAIL ID"
-          class="email_input"
-        />
-
-        <label for=""></label>
-        <input
-          type="password"
-          name="password"
-          id="#pwd"
-          placeholder="PASSWORD"
-          class="pwd_input"
-        />
-
-        <button class="register_btn">REGISTER</button>
-        <h3 class="or_line">OR</h3>
-        <button class="register_btn1">LOG IN</button>
-
-        <div class="container_another_mode">
-          <a href="#" class="another_mode_logo"
-            ><i class="bi bi-google google_des"></i
-          ></a>
-          <a href="#" class="another_mode_logo"
-            ><i class="bi bi-facebook facebook_des"></i
-          ></a>
-          <a href="#" class="another_mode_logo"
-            ><i class="bi bi-browser-safari"></i
-          ></a>
+                <input class="srch" type="search" name="" placeholder="Type to text">
+                <a href="#"><button class="btn">search</button></a>
+            </div> -->
+            <div class="button search srch">
+                <button class="btn2 grow">Become a member</button>
+              </div>
         </div>
-      </div>
-    </section>
-    <script src="script.js"></script>
-  </body>
+        <div class="content">
+            <h1>Fitness & <br><span>Nutrition</span> <br>Course</h1>
+            <p class="par">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet vero, voluptate magni consequuntur <br> at velit ullam eos ad magnam possimus.</p>
+
+            <button class="cn"><a href="#">JOIN US</a></button>
+            <div class="form">
+                <h2>Login Here</h2>
+                <input type="email" name="email" placeholder="Enter Email Here">
+                <input type="password"  placeholder="Enter Password Here">
+                <button class="btnn"><a href="#">Login </a></button>
+
+
+                <p class="link">Dont have an account<br>
+                <a href="#">Sign up</a> here</a></p>
+                <p class="liw">Log in with</p>
+
+                <div class="icons">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
 </html>
