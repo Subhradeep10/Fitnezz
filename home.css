@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 
 * {
   padding: 0;
@@ -144,13 +145,15 @@ h1::after {
   color: white;
   display: block;
   width: 90%;
+  top:-10%;
   text-align: center;
   position: relative;
-  left: -320px;
-  opacity: 0;
-  animation: slide_in 1.5s linear forwards;
+  /* left: -320px;
+  opacity: 0; */
+  /* animation: slide_in 1.5s linear forwards; */
+
 }
-@keyframes slide_in {
+/* @keyframes slide_in {
   0% {
     transform: translateX(0px);
     opacity: 0;
@@ -159,42 +162,58 @@ h1::after {
     transform: translateX(300px);
     opacity: 1;
   }
-}
+} */
 .subhead {
   font-size: 30px;
   font-weight: 600;
   margin-top: 10px;
 }
 .head {
-  font-size: 55px;
+  font-size: 70px;
   padding: 20px;
-  font-family: "Abril Fatface", cursive;
-  word-spacing: 10px;
+  font-family: "Roboto";
+  word-spacing: 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(90deg,purple,#fff,#ff00f3,#0033ff,#ff00c4,purple );
+background-size: 400%;
+letter-spacing: 2px;
+-webkit-text-fill-color: transparent;
+-webkit-background-clip: text;
+animation: animate 20s linear infinite;
+}
+@keyframes animate{
+  0%{
+  background-position:0%;
+  }
+  100%{
+    background-position:400%;
+  }
 }
 .topic {
   display: inline-block;
-  font-size: 26px;
+  font-size: 24px;
   padding: 10px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Montserrat";
 }
 .butns {
-  background-color: transparent;
+  background: purple;
   color: white;
   font-size: 20px;
-  padding: 15px;
-  border: 1px white solid;
+  padding: 10px 5px;
+  width: 25%;
+  border: 2px solid white;
   cursor: pointer;
-  margin-top: 10px;
-  border-radius: 10px;
-  font-family: "Archivo", sans-serif;
+  margin-top: 25px;
+  border-radius: 15px;
+  font-family: "Roboto";
 }
 .butns:hover {
-  background-color: white;
-  color: black;
-  font-size: 20px;
-  padding: 15px;
-  border: 1px black solid;
+  background: white;
+  color: purple;
+  border: 2px solid purple;
   cursor: pointer;
+  transition: 0.3s;
 }
 .butns_link {
   color: white;
