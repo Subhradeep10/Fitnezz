@@ -1474,3 +1474,70 @@ ul {
     margin-left: 0;
   }
 }
+
+/*Details at footer*/
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.question h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 9000;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.question ul li {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.question ul li .fa-solid {
+  width: 40px;
+  font-size: 18px;
+  padding-top: 2px;
+  color: #fff;
+}
+
+.question ul li .fa-solid:hover{
+  color: #000;
+}
+
+.question ul li .text {
+  display: table-cell;
+  vertical-align: top;
+  color: white;
+}
+
+.question .fab{
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  transition: all 0.1s ease-in-out;
+  transform: scale(1.2);
+}
+
+.question .fab:hover{
+   color: #000;
+}
+
+@media (max-width: 800px) {
+  footer{
+    flex-direction: column;
+    height: auto;
+  }
+  .form{
+    margin: auto;
+  }
+  .question{
+    margin: auto;
+    margin-top: 10%;
+  }
+}
