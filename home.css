@@ -325,7 +325,7 @@ h1::after {
   font-weight: 500;
   font-size: 17px;
   padding: 15px 0;
-  height: 200px;
+  margin-bottom: 15px;
   color: rgb(31, 31, 31);
 }
 
