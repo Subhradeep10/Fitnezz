@@ -346,6 +346,12 @@ footer{
     cursor: pointer;
 }
 
+.question .fa-brands{
+    text-decoration: none;
+    color: inherit;
+    color: white;
+}
+
 .question .fa-brands:hover{
     color: black;
 }
