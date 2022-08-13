@@ -1746,3 +1746,8 @@ body{
 	height: 10px;
 	transition: all 300ms ease-in-out;
 }
+
+#logo-primary{
+  padding-bottom:10px;
+  padding-right: 100px;
+}
