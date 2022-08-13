@@ -148,13 +148,12 @@ h1::after {
   color: white;
   display: block;
   width: 90%;
-  top:-10%;
+  top: -10%;
   text-align: center;
   position: relative;
   /* left: -320px;
   opacity: 0; */
   /* animation: slide_in 1.5s linear forwards; */
-
 }
 /* @keyframes slide_in {
   0% {
@@ -178,19 +177,27 @@ h1::after {
   word-spacing: 5px;
   font-weight: 700;
   text-transform: uppercase;
-  background: linear-gradient(90deg,purple,#fff,#ff00f3,#0033ff,#ff00c4,purple );
-background-size: 400%;
-letter-spacing: 2px;
--webkit-text-fill-color: transparent;
--webkit-background-clip: text;
-animation: animate 20s linear infinite;
+  background: linear-gradient(
+    90deg,
+    purple,
+    #fff,
+    #ff00f3,
+    #0033ff,
+    #ff00c4,
+    purple
+  );
+  background-size: 400%;
+  letter-spacing: 2px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 20s linear infinite;
 }
-@keyframes animate{
-  0%{
-  background-position:0%;
+@keyframes animate {
+  0% {
+    background-position: 0%;
   }
-  100%{
-    background-position:400%;
+  100% {
+    background-position: 400%;
   }
 }
 .topic {
@@ -315,7 +322,6 @@ animation: animate 20s linear infinite;
   font-size: 24px;
   font-weight: 700;
   text-align: center;
-
 }
 .content .time {
   font-size: 16px;
@@ -349,6 +355,10 @@ animation: animate 20s linear infinite;
   padding: 15px 0;
   height: 200px;
   color: rgb(31, 31, 31);
+}
+.Certification {
+  margin: 10px auto;
+  height: 20px;
 }
 
 .grid .card2 {
@@ -951,6 +961,9 @@ footer {
     text-align: center;
     max-width: 45%;
   }
+  .trainers-content p {
+    height: 210px;
+  }
 }
 
 @media only screen and (min-width: 960px) and (max-width: 1260px) {
@@ -964,6 +977,9 @@ footer {
     width: 100%;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+  }
+  .trainers-content p {
+    height: 250px;
   }
 
   .card .content {
@@ -1060,7 +1076,6 @@ footer {
     background-size: 77vh 99vh;
   }
 
-
   .toggle-button {
     display: flex;
   }
@@ -1116,7 +1131,6 @@ footer {
   .gallerySection .popup-img img {
     width: 95%;
   }
-
 }
 
 @media screen and (max-width: 690px) {
@@ -1409,7 +1423,7 @@ ul {
     width: 424px;
     text-align: center;
     margin-bottom: 25px;
-}
+  }
 }
 
 @media screen and (max-width: 690px) {
@@ -1494,6 +1508,9 @@ ul {
     width: 100%;
     min-height: auto;
     margin-left: 0;
+  }
+  .trainers-content p {
+    height: 230px;
   }
 }
 /* new  */
