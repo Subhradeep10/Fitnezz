@@ -195,23 +195,24 @@ animation: animate 20s linear infinite;
   font-size: 24px;
   padding: 10px;
   font-family: "Montserrat";
+  z-index: 1;
 }
 .butns {
-  background: purple;
-  color: white;
+  background: white;
+  color: purple;
   font-size: 20px;
   padding: 10px 5px;
   width: 25%;
-  border: 2px solid white;
+  border: 2px solid purple;
   cursor: pointer;
   margin-top: 25px;
   border-radius: 15px;
   font-family: "Roboto";
 }
 .butns:hover {
-  background: white;
-  color: purple;
-  border: 2px solid purple;
+  background: purple;
+  color: white;
+  border: 2px solid white;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -224,16 +225,7 @@ animation: animate 20s linear infinite;
   text-decoration: none;
 }
 
-.body {
-  background: url("./images/bg.jpg") center top;
-  background-repeat: no-repeat;
-  height: 960px;
-  margin-top: 0px;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 .featureclass {
   width: 100%;
@@ -286,15 +278,16 @@ animation: animate 20s linear infinite;
 
 .body {
   /* background-color: #000; */
-  background: rgb(2, 0, 36);
+  /* background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(9, 9, 121, 1) 35%,
     rgba(0, 212, 255, 1) 100%
-  );
-  /* background: url('./images/bg.jpg') center top;
-    background-repeat: no-repeat; */
+  ); */
+  background-image: url(./images/backg.jpg);
+  background-size: 100% 100%;
+    background-repeat: no-repeat;
   height: 960px;
   margin-top: 0px;
   padding: 10px;
@@ -988,8 +981,7 @@ footer {
   }
 
   .body {
-    background-size: 100% 100%;
-    height: 907px;
+     overflow: hidden;
   }
   .grid .card .img {
     height: 200px;
@@ -1051,10 +1043,6 @@ footer {
   }
   .btn2 {
     display: none;
-  }
-
-  .body {
-    background-size: 77vh 99vh;
   }
 
 
@@ -1491,5 +1479,11 @@ ul {
     width: 100%;
     min-height: auto;
     margin-left: 0;
+  }
+}
+@media (max-width:512px)
+{
+  .butns{
+    padding: 7.5px 3.25px;
   }
 }
