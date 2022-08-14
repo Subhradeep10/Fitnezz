@@ -14,7 +14,7 @@
   width: 1200px;
   height: 75px;
   margin: auto;
-
+background-color: #ff7200;
 }
 .icon{
   width: 200px;
@@ -22,15 +22,7 @@
   height: 70px;
 
 }
-.logo{
-  color: #ff7200;
-  font-size: 35px;
-  font-family: Arial;
-  padding-left: 20px;
-  float: left;
-  padding-top: 10px;
 
-}
 .menu{
   width: 400px;
   float: left;
@@ -510,4 +502,7 @@ color: orange;
       margin-left: 38px;
   } 
 
+}
+.logo-svg{
+  padding-top: 15px;
 }
