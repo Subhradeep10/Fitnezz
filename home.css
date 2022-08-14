@@ -311,7 +311,7 @@ h1::after {
   padding: 15px 0;
 }
 .content .title {
-  font-family: "poppins";
+  font-family: "Roboto";
   font-size: 24px;
   font-weight: 700;
   text-align: center;
@@ -337,14 +337,15 @@ h1::after {
   align-items: center;
 }
 .trainers-content .title {
-  font-family: "poppins";
+  font-family: "Roboto";
   font-size: 24px;
   font-weight: 700;
   text-align: center;
 }
 .trainers-content p {
   font-weight: 500;
-  font-size: 17px;
+  font-size: 14px;
+  font-family: "poppins";
   padding: 15px 0;
   height: 200px;
   color: rgb(31, 31, 31);
@@ -352,6 +353,7 @@ h1::after {
 .Certification {
   margin: 10px auto;
   height: 20px;
+  font-weight: 600;
 }
 
 .grid .card2 {
@@ -820,7 +822,8 @@ fieldset {
   height: 40px;
   line-height: 40px;
   padding: 0px 50px 0 20px;
-  font-size: 1em;
+  font-size: 1.4em;
+  font-family: "Roboto",sans-serif;
   font-weight: 800;
   color: #333;
   text-decoration: none;
@@ -875,7 +878,7 @@ footer {
   line-height: 1.65;
   padding: 25px;
   background-color: #fff;
-  font-size: 0.9em;
+  font-size: 1.2em;
 }
 
 /* --- Icon --- */
@@ -1013,7 +1016,7 @@ footer {
     padding: 15px 10px;
   }
   .content .title {
-    font-size: 18px;
+    font-size: 22px;
   }
   .content .time {
     font-size: 12px;
@@ -1048,9 +1051,10 @@ footer {
     padding: 15px 10px;
   }
   .content .title {
-    font-size: 16px;
+    font-size: 20px;
   }
   .content .time {
+    margin-top: 19px;
     font-size: 12px;
   }
 
@@ -1114,7 +1118,6 @@ footer {
     font-size: 35px;
   }
 }
-
 @media screen and (max-width: 768px) {
   .gallerySection .popup-img img {
     width: 95%;
@@ -1385,6 +1388,10 @@ ul {
 }
 /*responsive*/
 @media (max-width: 1130px) {
+  .grid .card .content .time{
+    font-size: 15px;
+  }
+
   .socials {
     justify-content: center;
   }
@@ -1478,6 +1485,12 @@ ul {
 }
 
 @media (max-width: 800px) {
+  .grid .card .content p{
+    font-size: 15px;
+  }
+  .grid .card .content .time{
+    font-size: 15px;
+  }
   .testimonial {
     height: 175vh;
   }
@@ -1507,6 +1520,7 @@ ul {
     height: 230px;
   }
 }
+
 /* new  */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 html{
