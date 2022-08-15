@@ -133,6 +133,7 @@ h1::after {
   border: none;
   color: white;
   padding: 12px;
+  width: 200px;
   margin-right: 1rem;
   font-size: 18px;
   border-radius: 5px;
