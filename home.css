@@ -974,6 +974,18 @@ header .slider{
   font-weight: 400px;
 }
 
+.row .pricing-details span::after{
+  content: "/mon";
+  font-size: 20px;
+  right: -33px;
+  top: 17px;
+}
+
+.pricing-details p{
+  font-size: 18px;
+  margin-top: 5px;
+}
+
 /* Faq section */
 .faq_heading {
   width: 100%;
