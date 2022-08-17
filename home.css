@@ -914,20 +914,20 @@ header .slider{
 
 #tab-1:checked ~ header .slider{
   left: 0%;
-  width: 90px;
+  width: 120px;
   transform: translateX(5%);
 
 }
 #tab-2:checked ~ header .slider{
   left: 50%;
   width: 120px;
-  transform: translateX(-5%);
+  transform: translateX(-50%);
 
 }
 #tab-3:checked ~ header .slider{
   left: 100%;
-  width: 90px;
-  transform: translateX(105%);
+  width: 120px;
+  transform: translateX(-105%);
 
 }
 
