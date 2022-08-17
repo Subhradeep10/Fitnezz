@@ -864,6 +864,9 @@ h1::after {
 .wrapper{
   width: 400px;
   background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
 /* Faq section */
