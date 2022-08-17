@@ -861,6 +861,11 @@ h1::after {
   background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
 }
 
+.wrapper{
+  width: 400px;
+  background: #fff;
+}
+
 /* Faq section */
 .faq_heading {
   width: 100%;
