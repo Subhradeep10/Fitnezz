@@ -899,6 +899,11 @@ h1::after {
 
 header .slider{
   position: absolute;
+  left: 50%;
+  height: 85%;
+  width: 120px;
+  background: red;
+  border-radius: inherit;
 
 }
 
