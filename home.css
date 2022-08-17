@@ -944,6 +944,10 @@ header .slider{
 
 }
 
+.wrapper .cards-area .row{
+  display: block;
+}
+
 .row .pricing-details{
   display: block;
   margin: 20px 0;
@@ -951,6 +955,12 @@ header .slider{
   padding-bottom: 25px;
   border-bottom: 1px solid #e6e6e6;
 
+}
+
+.row .pricing-details span{
+  font-size: 65px;
+  font-weight: 600;
+  
 }
 
 /* Faq section */
