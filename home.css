@@ -872,6 +872,7 @@ h1::after {
 
 .wrapper header{
   display: flex;
+  position: relative;
   align-items: center;
   height: 55px;
   border: 1px solid #ccc;
@@ -896,6 +897,9 @@ h1::after {
   width:40%;
 }
 
+header .slider{
+
+}
 
 /* Faq section */
 .faq_heading {
