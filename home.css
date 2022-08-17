@@ -886,6 +886,7 @@ h1::after {
   height: 100%;
   width: 30%;
   display: flex;
+  position: relative;
   font-size: 18px;
   cursor: pointer;
   align-items: center;
@@ -905,6 +906,8 @@ header .slider{
   background: red;
   border-radius: inherit;
   transform: translateX(-50%);
+  background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+
 
 }
 
