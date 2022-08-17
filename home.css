@@ -904,6 +904,10 @@ h1::after {
 
 }
 
+.wrapper input[type="radio"]{
+  display: none;
+}
+
 .wrapper header label:nth-child(2){
   width:40%;
 }
