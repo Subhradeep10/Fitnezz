@@ -865,6 +865,7 @@ h1::after {
   width: 400px;
   background: #fff;
   padding: 30px;
+  justify-content: center;
   border-radius: 16px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
@@ -875,17 +876,24 @@ h1::after {
   height: 55px;
   border: 1px solid #ccc;
   border-radius: 30px;
+  text-align: center;
+  gap: 45px;
+  padding: 25px;
 }
 
 .wrapper header label{
   height: 100%;
-  width: 100%;
+  width: 30%;
   display: flex;
   font-size: 18px;
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  border: 1px solid red;
+  
+}
+
+.wrapper header label:nth-child(2){
+  width:40%;
 }
 
 /* Faq section */
