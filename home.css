@@ -909,7 +909,13 @@ header .slider{
   border-radius: inherit;
   transform: translateX(-50%);
   background: linear-gradient(145deg, #D5A3FF 0%, #77A5F8 100%);
+  transition: all 0.3s ease-in-out;
+}
 
+#tab-1:checked ~ header .slider{
+  left: 0%;
+  width: 90px;
+  transform: translateX(-5%);
 
 }
 
