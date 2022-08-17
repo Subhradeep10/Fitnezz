@@ -863,6 +863,7 @@ h1::after {
 
 .wrapper{
   width: 400px;
+  display: block;
   background: #fff;
   padding: 30px;
   justify-content: center;
@@ -940,6 +941,15 @@ header .slider{
   left: 100%;
   width: 120px;
   transform: translateX(-105%);
+
+}
+
+.row .pricing-details{
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e6e6e6;
 
 }
 
