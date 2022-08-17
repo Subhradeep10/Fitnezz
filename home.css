@@ -960,7 +960,18 @@ header .slider{
 .row .pricing-details span{
   font-size: 65px;
   font-weight: 600;
+  position: relative;
+
   
+}
+
+.row .pricing-details span::before{
+  position: absolute;
+  content: "$";
+  font-size: 20px;
+  left:-13px;
+  top: 17px;
+  font-weight: 400px;
 }
 
 /* Faq section */
