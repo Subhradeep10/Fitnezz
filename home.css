@@ -915,7 +915,7 @@ header .slider{
 #tab-1:checked ~ header .slider{
   left: 0%;
   width: 90px;
-  transform: translateX(-5%);
+  transform: translateX(-50%);
 
 }
 
