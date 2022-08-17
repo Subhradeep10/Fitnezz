@@ -995,6 +995,29 @@ header .slider{
   list-style:none;
 }
 
+.row .features li i{
+  color:#77A5F8;
+}
+
+.features li span{
+  margin-left: 10px;
+}
+
+.wrapper button{
+  height: 55px;
+  width: 100%;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(145deg, #D5A3FF 0%, #77A5F8 100%);
+
+}
+
+
 /* Faq section */
 .faq_heading {
   width: 100%;
