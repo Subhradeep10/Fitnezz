@@ -852,6 +852,15 @@ h1::after {
   object-fit: cover;
 }
 
+/*Pricing Section*/
+.pricing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+}
+
 /* Faq section */
 .faq_heading {
   width: 100%;
