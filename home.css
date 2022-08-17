@@ -885,6 +885,7 @@ h1::after {
 .wrapper header label{
   height: 100%;
   width: 30%;
+  z-index: 2;
   display: flex;
   position: relative;
   font-size: 18px;
