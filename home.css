@@ -1014,7 +1014,11 @@ header .slider{
   border-radius: 30px;
   cursor: pointer;
   background: linear-gradient(145deg, #D5A3FF 0%, #77A5F8 100%);
+  transition: all 0.3s ease;
+}
 
+.wrapper button:hover{
+  transform: scale(0.98);
 }
 
 
