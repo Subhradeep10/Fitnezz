@@ -948,6 +948,20 @@ header .slider{
   overflow: hidden;
 }
 
+.cards .row-1{
+  transition: all 0.3s ease;
+}
+#tab-1:checked ~ .cards-area .price-card .row-1{
+  margin-left: 0%;
+
+}
+#tab-2:checked ~ .cards-area .price-card .row-1{
+  margin-left: -33.4%;
+}
+#tab-3:checked ~ .cards-area .price-card .row-1{
+  margin-left: -66.8%;
+}
+
 .wrapper .cards-area .row{
   display: block;
 }
