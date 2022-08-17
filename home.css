@@ -878,13 +878,14 @@ h1::after {
   border: 1px solid #ccc;
   border-radius: 30px;
   text-align: center;
-  gap: 45px;
-  padding: 25px;
+  gap: 0px;
+  padding: 20px;
 }
 
 .wrapper header label{
   height: 100%;
   width: 30%;
+  padding: 20px;
   z-index: 2;
   display: flex;
   position: relative;
@@ -907,7 +908,7 @@ header .slider{
   background: red;
   border-radius: inherit;
   transform: translateX(-50%);
-  background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+  background: linear-gradient(145deg, #D5A3FF 0%, #77A5F8 100%);
 
 
 }
