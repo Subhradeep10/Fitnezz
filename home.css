@@ -944,6 +944,10 @@ header .slider{
 
 }
 
+.cards-area{
+  overflow: hidden;
+}
+
 .wrapper .cards-area .row{
   display: block;
 }
