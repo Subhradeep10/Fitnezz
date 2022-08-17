@@ -986,6 +986,15 @@ header .slider{
   margin-top: 5px;
 }
 
+.row .features li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  list-style:none;
+}
+
 /* Faq section */
 .faq_heading {
   width: 100%;
