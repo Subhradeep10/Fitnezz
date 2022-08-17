@@ -904,6 +904,7 @@ header .slider{
   width: 120px;
   background: red;
   border-radius: inherit;
+  transform: translateX(-50%);
 
 }
 
