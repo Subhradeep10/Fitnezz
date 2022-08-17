@@ -869,6 +869,14 @@ h1::after {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
+.wrapper header{
+  display: flex;
+  align-items: center;
+  height: 55px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+}
+
 /* Faq section */
 .faq_heading {
   width: 100%;
