@@ -898,6 +898,7 @@ h1::after {
 }
 
 header .slider{
+  position: absolute;
 
 }
 
