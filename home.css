@@ -893,11 +893,14 @@ h1::after {
   cursor: pointer;
   align-items: center;
   justify-content: center;
-  transition:all 0.3 ease-in-out;
+  transition: all 0.3s ease-in-out;
   
 }
 
-#tab-1:checked .tab-1{
+#tab-1:checked ~ header .tab-1,
+#tab-2:checked ~ header .tab-2,
+#tab-3:checked ~ header .tab-3{
+  color: #fff;
 
 }
 
