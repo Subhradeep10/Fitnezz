@@ -948,6 +948,15 @@ header .slider{
   display: block;
 }
 
+.wrapper .cards-area .price-card{
+  width: 300%;
+  display: flex;
+}
+
+.cards-area .price-card .row{
+  width: 350.4px;
+}
+
 .row .pricing-details{
   display: block;
   margin: 20px 0;
