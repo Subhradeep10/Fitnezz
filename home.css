@@ -17,6 +17,23 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #800080;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3d013d;
+}
+
+/* Custom Scrollbar */
+
 section {
   padding: 80px 0;
 }
@@ -34,7 +51,7 @@ h1 {
 h1::after {
   content: " ";
   display: block;
-  background-color: purple;
+  background-color: #800080;
   border-radius: 4px;
   width: 80%;
   height: 10px;
@@ -110,7 +127,7 @@ h1::after {
 }
 
 .navbar a:hover {
-  color: rgb(235, 46, 109);
+  color: #eb2e6d;
 }
 
 .navbar a:before {
