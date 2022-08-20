@@ -858,7 +858,7 @@ h1::after {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+  background: linear-gradient(#d724ff 0%, #77A5F8 100%);
 }
 
 .wrapper{
@@ -921,7 +921,7 @@ header .slider{
   background: red;
   border-radius: inherit;
   transform: translateX(-50%);
-  background: linear-gradient(145deg, #D5A3FF 0%, #77A5F8 100%);
+  background: linear-gradient(145deg, #d724ff 0%, #77A5F8 100%);
   transition: all 0.3s ease-in-out;
 }
 
@@ -1040,7 +1040,7 @@ header .slider{
   font-size: 18px;
   border-radius: 30px;
   cursor: pointer;
-  background: linear-gradient(145deg, #D5A3FF 0%, #77A5F8 100%);
+  background: linear-gradient(145deg, #d724ff 0%, #77A5F8 100%);
   transition: all 0.3s ease;
 }
 
