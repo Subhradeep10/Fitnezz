@@ -9,9 +9,9 @@ h2.text-start{
 
 h3{
     border: 3px solid black;
-    text-align: center;
     border-radius: 55%;
     background-color: rgb(0, 0, 0);
     color: white;
-    font-size: 30px;
+    margin-left: 36rem;
+    text-align: center;
 }
