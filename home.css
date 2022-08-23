@@ -866,6 +866,203 @@ h1::after {
   object-fit: cover;
 }
 
+/*Pricing Section*/
+.pricing{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(#d724ff 0%, #77A5F8 100%);
+}
+
+.wrapper{
+  width: 400px;
+  display: block;
+  background: #fff;
+  padding: 30px;
+  justify-content: center;
+  border-radius: 16px;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.wrapper header{
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 55px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  text-align: center;
+  gap: 0px;
+  padding: 20px;
+}
+
+.wrapper header label{
+  height: 100%;
+  width: 30%;
+  padding: 20px;
+  z-index: 2;
+  display: flex;
+  position: relative;
+  font-size: 18px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  
+}
+
+#tab-1:checked ~ header .tab-1,
+#tab-2:checked ~ header .tab-2,
+#tab-3:checked ~ header .tab-3{
+  color: #fff;
+
+}
+
+.wrapper input[type="radio"]{
+  display: none;
+}
+
+.wrapper header label:nth-child(2){
+  width:40%;
+}
+
+header .slider{
+  position: absolute;
+  left: 50%;
+  height: 85%;
+  width: 120px;
+  background: red;
+  border-radius: inherit;
+  transform: translateX(-50%);
+  background: linear-gradient(145deg, #d724ff 0%, #77A5F8 100%);
+  transition: all 0.3s ease-in-out;
+}
+
+#tab-1:checked ~ header .slider{
+  left: 0%;
+  width: 120px;
+  transform: translateX(5%);
+
+}
+#tab-2:checked ~ header .slider{
+  left: 50%;
+  width: 120px;
+  transform: translateX(-50%);
+
+}
+#tab-3:checked ~ header .slider{
+  left: 100%;
+  width: 120px;
+  transform: translateX(-105%);
+
+}
+
+.cards-area{
+  overflow: hidden;
+}
+
+.cards .row-1{
+  transition: all 0.3s ease;
+}
+#tab-1:checked ~ .cards-area .price-card .row-1{
+  margin-left: 0%;
+
+}
+#tab-2:checked ~ .cards-area .price-card .row-1{
+  margin-left: -33.4%;
+}
+#tab-3:checked ~ .cards-area .price-card .row-1{
+  margin-left: -66.8%;
+}
+
+.wrapper .cards-area .row{
+  display: block;
+}
+
+.wrapper .cards-area .price-card{
+  width: 300%;
+  display: flex;
+}
+
+.cards-area .price-card .row{
+  width: 350.4px;
+}
+
+.row .pricing-details{
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #e6e6e6;
+
+}
+
+.row .pricing-details span{
+  font-size: 65px;
+  font-weight: 600;
+  position: relative;
+
+  
+}
+
+.row .pricing-details span::before{
+  position: absolute;
+  content: "$";
+  font-size: 20px;
+  left:-13px;
+  top: 17px;
+  font-weight: 400px;
+}
+
+.row .pricing-details span::after{
+  content: "/mon";
+  font-size: 20px;
+  right: -33px;
+  top: 17px;
+}
+
+.pricing-details p{
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.row .features li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  list-style:none;
+}
+
+.row .features li i{
+  color:#77A5F8;
+}
+
+.features li span{
+  margin-left: 10px;
+}
+
+.wrapper button{
+  height: 55px;
+  width: 100%;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(145deg, #d724ff 0%, #77A5F8 100%);
+  transition: all 0.3s ease;
+}
+
+.wrapper button:hover{
+  transform: scale(0.98);
+}
+
+
 /* Faq section */
 .faq_heading {
   width: 100%;
