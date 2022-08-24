@@ -274,7 +274,7 @@ h1::after {
 }
 
 .card .content {
-  padding: 15px 15px;
+  padding: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -603,19 +603,17 @@ h1::after {
   box-shadow: 0 3px 25px hsla(0, 0, 0, 0.2);
   overflow: hidden;
   display: flex;
-
 }
 
 @media (max-width: 756px) {
-  .signup{
+  .signup {
     flex-direction: column;
     align-items: center;
   }
-   .signup-connect{
+  .signup-connect {
     border-radius: 10px 10px 0px 0px;
-   }
+  }
 }
-
 
 .signup-connect,
 .signup-classic {
@@ -624,7 +622,7 @@ h1::after {
 }
 
 .signup-connect {
-  background: linear-gradient(-5deg,purple,rgb(193,3,193));
+  background: linear-gradient(-5deg, purple, rgb(193, 3, 193));
   color: hsl(0, 0, 100);
 }
 
@@ -1306,11 +1304,10 @@ footer {
     text-align: center;
   }
 }
-@media screen and (max-width: 860px)
-{
-.navbar ul li{
-  padding: 8px;
-}
+@media screen and (max-width: 860px) {
+  .navbar ul li {
+    padding: 8px;
+  }
 }
 @media screen and (max-width: 690px) {
   .grid {
@@ -1346,14 +1343,14 @@ footer {
     height: 80px;
     text-align: center;
   }
-  .btn2{
+  .btn2 {
     display: flex;
     margin-top: -48px;
-    margin-left:18rem;
+    margin-left: 18rem;
     padding-left: 20px;
     text-decoration: none;
   }
-  .navbar.active ul{
+  .navbar.active ul {
     height: 350px;
     margin-bottom: -50px;
     background-color: #181818;
@@ -2050,11 +2047,10 @@ body {
   padding-right: 100px;
 }
 
-.social-button{
-    display: flex;
-    flex-direction: column;
-    align-content: stretch;
-    
+.social-button {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
 }
 
 ::-webkit-scrollbar{
