@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+.home {
+  height: 100vh;
+  background-image: url("./images/home.jpg");
+  background-size: cover;
+  padding: 15px;
+  -webkit-display: flex;
+  display: flex;
+  position: relative;
+}
+.home .go-down {
+  position: absolute;
+  bottom: 50px;
+  width: 26px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  display: block;
+  border-radius: 4px;
+  text-align: center;
+  left: 50%;
+  margin-left: -13px;
+}
+.home .go-down .fa {
+  color: #ffffff;
+  -webkit-animation: goDown 1s ease infinite;
+  animation: goDown 1s ease infinite;
+}
+@-webkit-keyframes goDown {
+  0% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+@keyframes goDown {
+  0% {
+    transform: translateY(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+.home .container {
+  -webkit-display: flex;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.home h1 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.home h1 span {
+  color: purple;
+}
+
+/*About section*/
+
+.about {
+  padding: 80px 0px;
+  background-color: #ffffff;
+}
+
+.about .content {
+  -webkit-display: flex;
+  display: flex;
+}
+.about .content .box {
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  padding: 15px;
+  border-radius: 20px;
+}
+.about .content .box .inner {
+  background-color: #222222;
+  border-radius: 20px;
+}
+.about .content .box:nth-child(2) .inner {
+  background-color: #c11325;
+  border-radius: 20px;
+}
+.about .content .box .inner .img img {
+  width: 100%;
+  border-radius: 20px;
+}
+.about .content .box .inner .text {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.about .content .box .inner .text h4 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0px 0px 15px;
+  font-weight: 500;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
+}
+.about .content .box .inner .text p {
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+  text-align: center;
+  height: auto;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
