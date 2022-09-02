@@ -1596,7 +1596,7 @@ footer {
 }
 .socials {
   margin-top: 25px;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .socials i {
   color: palevioletred;
