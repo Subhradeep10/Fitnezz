@@ -1,0 +1,471 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    width: 100%;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 50%,
+        rgba(0, 0, 0, 0.8) 50%
+      ),
+      url(images/nutrition.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  .navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    background: rgba(255, 114, 0, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+  .icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+  }
+  
+  .menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+  }
+  ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 18px;
+  }
+  ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+  }
+  ul li a:hover {
+    color: #000;
+  }
+  .search {
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+  }
+  .srch {
+    font-family: "Times New Roman", Times, serif;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    /* border: 1px solid #ff7200; */
+    margin-top: 8px;
+    color: white;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+  }
+  .btn {
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .btn:focus {
+    outline: none;
+  }
+  /* newly */
+  .btn2 {
+    background-color: #000;
+    border: none;
+    color: white;
+    padding: 8px;
+    margin-right: 1rem;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+    font-family: "Fira Sans", sans-serif;
+  }
+  .btn2:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .srch:focus {
+    outline: none;
+  }
+
+  #heading{
+    color: white;
+    /* text-align: center; */
+    /* margin-top: 20px; */
+    /* font-size: 50px; */
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding-left: 50vh;
+  margin-top: 8%;
+  letter-spacing: 2px;
+  }
+  .form {
+    width: 250px;
+    height: 530px;
+    background: rgba(255, 114, 0, 0.65);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    position: absolute;
+    margin-left: 70px;
+    top: 150px;
+    left: 950px;
+    padding: 25px;
+  }
+  
+  .form input {
+    width: 240px;
+    height: 25px;
+    background: transparent;
+    border-bottom: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+  }
+  .form input:focus {
+    outline: none;
+  }
+  ::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .btnn {
+    width: 240px;
+    height: 40px;
+    background: #000;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  .btnn:hover {
+    background: #fff;
+    color: #000;
+  }
+  .btnn:hover a {
+    /* background: #fff; */
+    color: #000;
+  }
+  .btnn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  .form .link {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+  }
+  .form .link a {
+    text-decoration: none;
+    color: #000;
+  }
+  .liw {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .icons a {
+    text-decoration: none;
+    color: white;
+  }
+  .icons ion-icon {
+    color: white;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+  }
+  .icons ion-icon:hover {
+    color: #000;
+  }
+  @media screen and (max-width: 1200px) {
+    /*Normal Screen*/
+  
+    .navbar {
+      width: 100%;
+      height: 100px;
+    }
+    ul {
+      margin-left: 30px;
+    }
+    ul li {
+      margin-left: 60px;
+    }
+    ul li a {
+      font-size: 1.6vw;
+    }
+    .search {
+      margin-top: 3px;
+      margin-left: 290px;
+    }
+    .srch {
+      height: 40px;
+      width: 190px;
+      font-size: 14px;
+    }
+    .btn {
+      height: 40px;
+      width: 80px;
+    }
+    .content {
+      width: 100%;
+    }
+    .content h1,
+    .content span {
+      font-size: 4.5vw;
+    }
+    .content .par {
+      width: 90%;
+      font-size: 1.5vw;
+    }
+    .content .cn {
+      width: 13%;
+      height: 3.5vw;
+      font-size: 1.8vw;
+    }
+    .content a {
+      font-size: 1.6vw;
+    }
+  }
+  
+  @media screen and (max-width: 1170px) {
+    /*Login-box*/
+    .main {
+      padding-left: 20px;
+      height: 180vh;
+    }
+    .form {
+      margin-left: -30px;
+      width: 250px;
+      height: 370px;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 50%,
+        rgba(0, 0, 0, 0.8) 50%
+      );
+      position: absolute;
+      top: 420px;
+      left: 50px;
+      transform: translate(0%, -5%);
+      border-radius: 10px;
+      padding: 25px;
+    }
+    .form input {
+      width: 240px;
+      height: 35px;
+      background: transparent;
+      border-bottom: 1px solid #ff7200;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 30px;
+      font-family: sans-serif;
+    }
+    .btnn a {
+      font-size: 16px;
+    }
+    .form .link a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 830px) {
+    /*For tablet*/
+  
+    .content {
+      margin-top: 120px;
+      width: 80%;
+      margin-left: 40px;
+    }
+    .content h1,
+    .content span {
+      font-size: 6vw;
+    }
+    .content .par {
+      width: 90%;
+      font-size: 1.8vw;
+    }
+    .content .cn {
+      width: 15%;
+      height: 4.5vw;
+      font-size: 2vw;
+    }
+    .content a {
+      font-size: 2vw;
+    }
+    .logo {
+      margin-left: 240px;
+      width: 100%;
+      margin-top: 15px;
+      font-size: 5vw;
+    }
+    .menu {
+      width: 100%;
+    }
+    ul {
+      margin-top: -5px;
+      margin-left: 5px;
+    }
+    ul li {
+      margin-left: 60px;
+    }
+    ul li a {
+      font-size: 2vw;
+    }
+    .search {
+      margin-top: -20px;
+      margin-left: 60px;
+    }
+    .srch {
+      height: 30px;
+      width: 160px;
+      font-size: 12px;
+    }
+    .btn {
+      height: 30px;
+      width: 70px;
+    }
+    .main {
+      padding-left: 20px;
+      height: 180vh;
+    }
+    .form {
+      margin-left: -30px;
+      width: 250px;
+      height: 370px;
+      background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.8) 50%,
+        rgba(0, 0, 0, 0.8) 50%
+      );
+      position: absolute;
+      top: 511px;
+      left: 50px;
+      transform: translate(0%, -5%);
+      border-radius: 10px;
+      padding: 25px;
+    }
+    .form input {
+      width: 240px;
+      height: 35px;
+      background: transparent;
+      border-bottom: 1px solid #ff7200;
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing: 1px;
+      margin-top: 30px;
+      font-family: sans-serif;
+    }
+    .btnn a {
+      font-size: 16px;
+    }
+    .form .link a {
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    /*IPAD*/
+  
+    .content {
+      margin-top: 80px;
+      margin-left: 20px;
+    }
+    .btn2 {
+      font-size: 12px;
+    }
+    .search {
+      margin-top: -40px;
+      margin-left: 42px;
+    }
+    .logo {
+      margin-left: 180px;
+      font-size: 4vw;
+    }
+    ul {
+      margin-top: -25px;
+      margin-left: -5px;
+    }
+    ul li {
+      margin-left: 50px;
+    }
+    ul li a {
+      font-size: 2vw;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    /*mobile*/
+    .logo {
+      margin-left: 140px;
+      font-size: 4vw;
+    }
+    ul {
+      margin-top: -25px;
+    }
+    ul li {
+      margin-left: 42px;
+    }
+    ul li a {
+      font-size: 2vw;
+    }
+    .search {
+      margin-top: -40px;
+      margin-left: 38px;
+    }
+  }
+  .logo-svg {
+    padding-top: 15px;
+  }
+
+  .form #login-back:hover{
+    color: white;
+    text-decoration: underline;
+  }
+
+  
