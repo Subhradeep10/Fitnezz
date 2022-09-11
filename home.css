@@ -315,6 +315,7 @@ h1::after {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
+  margin: 12px 0;
 }
 .content .time {
   font-size: 16px;
