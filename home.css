@@ -2059,3 +2059,15 @@ body {
   border-radius: 13px;
   background-color: purple;
 }
+
+#upbtn{
+  position: fixed;
+  right: 1vw;
+  bottom: 1vw;
+  font-size: 4.5vw;
+  color: #000;
+}
+
+#upbtn:hover{
+  transform: scale(1.02);
+}
