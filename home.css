@@ -865,15 +865,15 @@ h1::after {
 }
 
 /*Pricing Section*/
-.pricing{
+.pricing {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(#d724ff 0%, #77A5F8 100%);
+  background: linear-gradient(#d724ff 0%, #77a5f8 100%);
 }
 
-.wrapper{
+.wrapper {
   width: 400px;
   display: block;
   background: #fff;
@@ -883,7 +883,7 @@ h1::after {
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 }
 
-.wrapper header{
+.wrapper header {
   display: flex;
   position: relative;
   align-items: center;
@@ -895,7 +895,7 @@ h1::after {
   padding: 20px;
 }
 
-.wrapper header label{
+.wrapper header label {
   height: 100%;
   width: 30%;
   padding: 20px;
@@ -907,25 +907,23 @@ h1::after {
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease-in-out;
-  
 }
 
 #tab-1:checked ~ header .tab-1,
 #tab-2:checked ~ header .tab-2,
-#tab-3:checked ~ header .tab-3{
+#tab-3:checked ~ header .tab-3 {
   color: #fff;
-
 }
 
-.wrapper input[type="radio"]{
+.wrapper input[type="radio"] {
   display: none;
 }
 
-.wrapper header label:nth-child(2){
-  width:40%;
+.wrapper header label:nth-child(2) {
+  width: 40%;
 }
 
-header .slider{
+header .slider {
   position: absolute;
   left: 50%;
   height: 85%;
@@ -933,116 +931,109 @@ header .slider{
   background: red;
   border-radius: inherit;
   transform: translateX(-50%);
-  background: linear-gradient(145deg, #d724ff 0%, #77A5F8 100%);
+  background: linear-gradient(145deg, #d724ff 0%, #77a5f8 100%);
   transition: all 0.3s ease-in-out;
 }
 
-#tab-1:checked ~ header .slider{
+#tab-1:checked ~ header .slider {
   left: 0%;
   width: 120px;
   transform: translateX(5%);
-
 }
-#tab-2:checked ~ header .slider{
+#tab-2:checked ~ header .slider {
   left: 50%;
   width: 120px;
   transform: translateX(-50%);
-
 }
-#tab-3:checked ~ header .slider{
+#tab-3:checked ~ header .slider {
   left: 100%;
   width: 120px;
   transform: translateX(-105%);
-
 }
 
-.cards-area{
+.cards-area {
   overflow: hidden;
 }
 
-.cards .row-1{
+.cards .row-1 {
   transition: all 0.3s ease;
 }
-#tab-1:checked ~ .cards-area .price-card .row-1{
+#tab-1:checked ~ .cards-area .price-card .row-1 {
   margin-left: 0%;
-
 }
-#tab-2:checked ~ .cards-area .price-card .row-1{
+#tab-2:checked ~ .cards-area .price-card .row-1 {
   margin-left: -33.4%;
 }
-#tab-3:checked ~ .cards-area .price-card .row-1{
+#tab-3:checked ~ .cards-area .price-card .row-1 {
   margin-left: -66.8%;
 }
 
-.wrapper .cards-area .row{
+.wrapper .cards-area .row {
   display: block;
 }
 
-.wrapper .cards-area .price-card{
+.wrapper .cards-area .price-card {
   width: 300%;
   display: flex;
 }
 
-.cards-area .price-card .row{
+.cards-area .price-card .row {
   width: 350.4px;
 }
 
-.row .pricing-details{
+.row .pricing-details {
   display: block;
   margin: 20px 0;
   text-align: center;
   padding-bottom: 25px;
   border-bottom: 1px solid #e6e6e6;
-
 }
 
-.row .pricing-details span{
+.row .pricing-details span {
   font-size: 65px;
   font-weight: 600;
   position: relative;
-
-  
 }
 
-.row .pricing-details span::before{
+.row .pricing-details span::before {
   position: absolute;
   content: "$";
   font-size: 20px;
-  left:-13px;
+  left: -13px;
   top: 17px;
   font-weight: 400px;
 }
 
-.row .pricing-details span::after{
+.row .pricing-details span::after {
   content: "/mon";
   font-size: 20px;
   right: -33px;
   top: 17px;
 }
 
-.pricing-details p{
+.pricing-details p {
   font-size: 18px;
   margin-top: 5px;
 }
 
-.row .features li{
+.row .features li {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 15px;
   margin-bottom: 10px;
-  list-style:none;
+  list-style: none;
 }
 
-.row .features li i{
-  color:#77A5F8;
+.row .features li i {
+  color: #77a5f8;
 }
 
-.features li span{
+.features li span {
   margin-left: 10px;
 }
 
-.wrapper button{
+.wrapper button {
   height: 55px;
   width: 100%;
   margin-right: 20px;
@@ -1052,14 +1043,13 @@ header .slider{
   font-size: 18px;
   border-radius: 30px;
   cursor: pointer;
-  background: linear-gradient(145deg, #d724ff 0%, #77A5F8 100%);
+  background: linear-gradient(145deg, #d724ff 0%, #77a5f8 100%);
   transition: all 0.3s ease;
 }
 
-.wrapper button:hover{
+.wrapper button:hover {
   transform: scale(0.98);
 }
-
 
 /* Faq section */
 .faq_heading {
@@ -1794,6 +1784,7 @@ ul {
 }
 @media (max-width: 512px) {
   .butns {
+    width: 200px;
     padding: 7.5px 3.25px;
   }
   .trainers-content p {
@@ -2053,15 +2044,15 @@ body {
   align-content: stretch;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 13px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: #c2bcbcc3;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-clip: content-box;
   border: 3px solid transparent;
   border-radius: 13px;
