@@ -61,15 +61,15 @@
 .contact .content .text h2 {
   font-size: 30px;
   font-weight: 500;
-  color: #c11325;
+  color: #ffd6da;
   padding: 0px 0px 20px;
 }
 .contact .content .text p {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 20px;
   color: #ffffff;
   margin: 0;
-  padding: 0px 0px 30px;
+  padding: 0px 36px 30px;
   font-family: "Open-sans", sans-serif;
 }
 
@@ -92,10 +92,10 @@
 .contact .content .text .info li span {
   display: inline-block;
   position: absolute;
-  left: 0px;
+  left: 280px;
   top: 0px;
   font-size: 20px;
-  color: #c11325;
+  color: white;
 }
 .contact .content .text .social {
   padding-top: 30px;
