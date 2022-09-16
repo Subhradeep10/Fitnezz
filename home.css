@@ -1715,6 +1715,9 @@ ul {
 }
 
 @media screen and (max-width: 690px) {
+  .body {
+    height: 600px;
+  }
   .h {
     margin-top: 150vh;
   }
