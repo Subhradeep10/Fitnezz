@@ -282,7 +282,7 @@ h1::after {
 }
 
 .card .content {
-  padding: 0px;
+  padding: 15px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
