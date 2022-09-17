@@ -674,6 +674,10 @@ h1::after {
   /* background: black; */
 }
 
+.scheduledclass button {
+  margin-bottom: 20px; 
+}
+
 #name-id {
   margin-top: 28px;
 }
