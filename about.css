@@ -187,3 +187,14 @@ body {
   color: #ed563b;
   font-weight: 900;
 }
+
+.inner{
+   border: 2px solid black;
+}
+
+.inner:hover{
+  transform: scale(1.009);
+  box-shadow: 2px 2px 13px purple;
+  cursor: pointer;
+  border: 2px solid black;
+}
