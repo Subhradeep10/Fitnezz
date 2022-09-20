@@ -23,7 +23,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="myfunction()">
+  <div id="load"></div>
   <!-- <button class="upbtn"> -->
     <a href="./index.html">
     <i class="fa fa-arrow-circle-up" id="upbtn" aria-hidden="true"></i>
@@ -764,7 +765,12 @@
       </div>
     </div>
   </footer>
-
+  <script>
+    var preloader = document.getElementById('load');
+    function myfunction(){
+        preloader.style.display='none';
+    }
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
 </body>
