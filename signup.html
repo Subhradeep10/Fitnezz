@@ -21,7 +21,8 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body> 
+<body onload="myfunction()">
+    <div id="load"></div> 
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -59,5 +60,11 @@
         <a id="login-back" href="./joinin.html">Login</a> here</a></p>
 
     </div>
+    <script>
+        var preloader = document.getElementById('load');
+        function myfunction(){
+            preloader.style.display='none';
+        }
+      </script>
 </body>
 </html>

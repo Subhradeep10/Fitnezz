@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="join.css">
     <title>joinin page</title>
 </head>
-<body>
+<body onload="myfunction()">
+    <div id="load"></div>
     <div class="main">
         <div class="navbar">
             <div class="icon">
@@ -51,6 +52,12 @@
             </div>
         </div>
     </div>
+    <script>
+        var preloader = document.getElementById('load');
+        function myfunction(){
+            preloader.style.display='none';
+        }
+      </script>
     <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
 </body>
 </html>
