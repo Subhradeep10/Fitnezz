@@ -289,7 +289,7 @@ h1::after {
 }
 
 .card .content {
-  padding: 0px;
+  padding: 15px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1731,6 +1731,9 @@ ul {
 }
 
 @media screen and (max-width: 690px) {
+  .body {
+    height: 600px;
+  }
   .h {
     margin-top: 150vh;
   }
