@@ -5,18 +5,20 @@
   background-color: #222222;
 }
 
-#load{
-	height: 100vh;
-	width: 100%;
-	position: fixed;
-	background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
-	z-index: 9999999;
+#load {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
+  z-index: 9999999;
 }
 .contact .content {
   -webkit-display: flex;
   display: flex;
 }
-
+.container {
+  height: inherit;
+}
 .contact .content .box {
   flex: 0 0 50%;
   max-width: 50%;
@@ -87,7 +89,7 @@
 }
 
 .contact .content .text .info li {
-  display: block;
+  display: flex;
   margin-bottom: 15px;
   color: #ffffff;
   font-size: 15px;
@@ -98,7 +100,6 @@
 }
 .contact .content .text .info li span {
   display: inline-block;
-  position: absolute;
   left: 280px;
   top: 0px;
   font-size: 20px;
@@ -124,6 +125,9 @@
   background-color: transparent;
   border-color: #ffffff;
 }
+#defaultCanvas0 {
+  height: 100%;
+}
 
 .contact .content .text .social a span {
   color: #ffffff;
@@ -138,6 +142,13 @@
   font-size: 15px;
 }
 
+.info li span {
+  margin: 0 20px;
+}
+.contact .content .text p {
+  padding: 0;
+  margin: 40px 0;
+}
 /*Responsive*/
 
 /*if screen width is less than or equal to 991px then*/
@@ -159,6 +170,13 @@
     padding: 15px;
   }
 }
+.info ul {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  /* column-gap: 20px; */
+}
 
 /*if screen width is less than or equal to 767px then*/
 @media (max-width: 767px) {
@@ -178,6 +196,23 @@
   .service .content .box {
     flex: 0 0 100%;
     max-width: 100%;
+  }
+  .slideInRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .contact .content .text .info ul li {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  .contact .content .text .info ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .classes .content .class-items .item {
     flex-wrap: wrap;
@@ -228,5 +263,8 @@
 @media (max-width: 550px) {
   .home h1 {
     font-size: 30px;
+  }
+  .info ul {
+    margin: 100px 0px;
   }
 }
