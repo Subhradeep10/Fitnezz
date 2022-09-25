@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Fitnezz Triceps</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        #load{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
+	z-index: 9999999;
+    }
+    .font{
+        font-family: 'Merriweather', serif;
+    }
+    </style>
+</head>
+<body onload="myfunction()" style="background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,25,37,1) 35%, rgba(0,255,179,1) 100%);">
+    <div id="load"></div>
+    <!-- navbar section -->
+    <nav style="background-color: rgb(40,43,40);" class= " flex bg-black  text-white sticky top-0">
+        <h2 class="m-5  text-4xl">Fitne<h2  class="text-purple-800 mt-5 -ml-5 text-4xl" style="color: rgb(128,0,128);">zz</h2></h2>
+        <ul class=" flex flex-row items-center ml-auto space-x-14 mx-auto text-xl">
+            <li class="cursor-pointer hover:text-pink-700"> <a href="./index.html"> Home</a></li >
+            <li class="cursor-pointer hover:text-pink-700"><a href="./about.html">About</a></li >
+            <li class="cursor-pointer hover:text-pink-700"><a href="./index.html"></a>News</a></li >
+            <li class="cursor-pointer hover:text-pink-7000"><a href="./contact.html"></a>Contact</a></li >
+        </ul>
+        <button style="background-color: rgb(128,0,128);" class=" bg-purple-800  rounded-md  p-2 m-5  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ">Become a member</button>
+    </nav>
+
+
+    <h2 style="text-decoration: underline; font-family: 'Merriweather', serif; font-size: 3em;" class="text-start text-white font-serif text-3xl font-semibold w-72 h rounded-lg mt-10 ml-10 p-3 ">Cardio</h2>
+    
+    
+    <div>
+        <h3 style=" margin: auto; margin-block: 30px; text-align: center;" class="text-start font-serif text-3l font-semibold w-72 h rounded-md mt-10 p-3">Jogging in place</h3>
+        <div style="margin-left:55px;" class="flex flex-row space-x-36">
+            <img src="./images/jog.gif" alt="">
+        </div>
+    <ul class="m-10 text-xl bg-grey-500 rounded-md">
+        <li class=" font text-white h-12 p-3 "> 1. Bounce lightly from one foot to the other.</li>
+        <li class=" font text-white h-12 p-2">  2. At the same same, swing the arms from side to side</li>
+    </ul>
+    </div>
+
+
+    
+    <div>
+        <h3 style=" margin: auto; margin-block: 30px; text-align: center;" class="text-start font-serif text-3l font-semibold w-72 h rounded-md mt-10 p-3">Air jump rope</h3>
+        <div style="margin-left:55px;" class="flex flex-row space-x-36">
+            <img src="./images/junp.gif" alt="">
+        </div>
+    <ul class="m-10 text-xl bg-grey-500 rounded-md">
+        <li class=" font text-white h-12 p-3"> 1. The air jump rope requires a person to “swing” an imaginary jump rope in the air.</li>
+        <li class=" font text-white h-12 p-2">  2. To perform, stand with the feet together and jump up and down while swinging the arms in a circular direction.</li>
+        <li class=" font text-white h-12 p-2"> 3. Remember to not go beyond your limit.</li>
+    </ul>
+    </div>
+
+
+
+    
+    <div>
+        <h3 style=" margin: auto; margin-block: 30px; text-align: center;" class="text-start font-serif text-3l font-semibold w-72 h rounded-md mt-10 p-3">Arm circles</h3>
+        <div style="margin-left:55px;" class="flex flex-row space-x-36">
+            <img src="./images/air hand.gif" alt="">
+        </div>
+    <ul class="m-10 text-xl bg-grey-500 rounded-md">
+        <li class=" font text-white h-12 p-3 "> 1. Rotate the arms in a circular motion, both clockwise and counterclockwise. The movement may resemble a butterfly or backstroke.</li>
+        <li class=" font text-white h-12 p-2">  2. If a person has limited mobility in their arms, they can extend their arms to their sides and draw small circles.</li>
+    </ul>
+    </div>
+    
+    <div>
+        <h3 style=" margin: auto; margin-block: 30px; text-align: center;" class="text-start font-serif text-3l font-semibold w-72 h rounded-md mt-10 p-3">Jumping Jacks</h3>
+        <div style="margin-left:55px;" class="flex flex-row space-x-36">
+            <img src="./images/jumping jacks.gif" alt="">
+        </div>
+    <ul class="m-10 text-xl bg-grey-500 rounded-md">
+        <li class=" font text-white h-12 p-3"> 1. Begin with the feet hip-width apart and arms down.</li>
+        <li class=" font text-white h-15 p-2">  2. Raise the arms out to the sides, straight in the air while jumping out with the feet apart.</li>
+        <li class=" font text-white h-12 p-2"> 3. Jump back into the starting position and land softly on the balls of the feet, bringing the arms back into the body.</li>
+        
+    </ul>
+
+    </div>
+    <script>
+        var preloader = document.getElementById('load');
+        function myfunction(){
+            preloader.style.display='none';
+        }
+      </script>
+    <!-- navbar ends -->
+</body>
+
+</html>
