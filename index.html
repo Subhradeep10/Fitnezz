@@ -21,6 +21,7 @@
   <script src="https://use.fontawesome.com/d416e09bd8.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body onload="myfunction()">
@@ -63,7 +64,7 @@
       <div class="head">
         Health is Wealth
       </div>
-      <div class="topic">
+      <div data-aos="fade-left" class="topic">
 
         One of the most valuable possessions in human life is health. With good health, one can achieve anything in
         life. In order to perform important work effectively, one has to be in sound health.
@@ -77,11 +78,11 @@
 
   <!-- Checking -->
 
-  <section class="featureclass">
-    <h1>FEATURED CLASSES</h1>
+  <section id="featureclass"  class="featureclass">
+    <h1  data-aos="flip-left">FEATURED CLASSES</h1>
 
-    <div class="grid">
-      <div class="card">     
+    <div  class="grid">
+      <div data-aos="zoom-in" class="card">     
         <div class="img">
           <img src="./images/chest_day.jpg" alt="" />
         </div> 
@@ -91,7 +92,7 @@
         </div>
       </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./backWorkout.html">
         <div class="img">
           <img src="./images/back_day.jpg" alt="" />
@@ -101,7 +102,7 @@
         </div>
       </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./leg workout.html">
         <div class="img">
           <img src="./images/leg_day.jpeg" alt="" />
@@ -111,7 +112,7 @@
         </div>
       </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./armworkout.html">
         <div class="img">
           <img src="./images/arm_day.jpg" alt="" />
@@ -121,7 +122,7 @@
         </div>
       </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./tricepWorkout.html">
           <div class="img">
             <img src="./images/tricep_day.jpg" alt="" />
@@ -131,7 +132,7 @@
           </div>
         </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./shoulder.html">
         <div class="img"> 
           <img src="./images/shoulder_day.jpg" alt="" />
@@ -142,7 +143,7 @@
        </a>
       </div>
    
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./bicep.html">
         <div class="img">
           <img src="./images/bicep_day.jpg" alt="" />
@@ -152,8 +153,12 @@
         </div>
       </a>
       </div>
-      <div class="card">
+
+      <div data-aos="zoom-in" class="card">
+
+   
         <a href="./cardio.html">
+
         <div class="img">
           <img src="./images/cardio_day.jpg" alt="" />
         </div>
@@ -167,14 +172,14 @@
     </div>
   </section>
 
-  <section class="scheduledclass">
+  <section id="scheduledclass" class="scheduledclass">
     <div class="topscheduledclass">
-      <h1>SCHEDULED CLASS</h1>
+      <h1 data-aos="flip-down">SCHEDULED CLASS</h1>
     </div>
 
     <div class="grid">
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/chest_day.jpg" alt="" srcset="">
         </div>
@@ -187,7 +192,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/back_day.jpg" alt="" />
         </div>
@@ -204,7 +209,7 @@
 
 
       <!-- <div class="grid"> -->
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/leg_day.jpeg" alt="" srcset="">
         </div>
@@ -217,7 +222,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/arm_day.jpg" alt="">
         </div>
@@ -230,7 +235,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/tricep_day.jpg" alt="" />
         </div>
@@ -246,7 +251,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/shoulder_day.jpg" alt="" />
         </div>
@@ -260,7 +265,7 @@
           <button class="btn">Join now</button>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/bicep_day.jpg" alt="" />
         </div>
@@ -276,7 +281,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/cardio_day.jpg" alt="" />
         </div>
@@ -301,7 +306,7 @@
       <h1>Meet the Trainers</h1>
     </div>
     <div class="grid">
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-1.jpg" alt="" srcset="">
         </div>
@@ -315,7 +320,7 @@
           <span class="Certification">NFPT Certified Fitness Trainer</span>
         </div>
       </div>
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-2.jpg" alt="">
         </div>
@@ -347,7 +352,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-4.jpg" alt="">
         </div>
@@ -402,7 +407,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer4.jpg" alt="">
         </div>
@@ -416,7 +421,7 @@
       </div>
 
 
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer5.jpg" alt="">
         </div>
@@ -452,10 +457,10 @@
               <p>Standard Plan</p>
             </div>
             <ul class="features">
-              <li><i class="fas fa-check"></i><span>Beginner Classes</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Training Overview</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Personal Training</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Olympic Weightlifting</span></li>
+              <li><i class="fa fa-check"></i><span>Beginner Classes</span></li>
+              <li><i class="fa fa-times"></i><span>Training Overview</span></li>
+              <li><i class="fa fa-times"></i><span>Personal Training</span></li>
+              <li><i class="fa fa-times"></i><span>Olympic Weightlifting</span></li>
             </ul>
           </div>
           <div class="row">
@@ -464,10 +469,10 @@
               <p>Most Popular Plan</p>
             </div>
             <ul class="features">
-              <li><i class="fas fa-check"></i><span>Beginner Classes</span></li>
-              <li><i class="fas fa-check"></i><span>Training Overview</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Olympic Weightlifting</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Personal Training</span></li>
+              <li><i class="fa fa-check"></i><span>Beginner Classes</span></li>
+              <li><i class="fa fa-check"></i><span>Training Overview</span></li>
+              <li><i class="fa fa-times"></i><span>Olympic Weightlifting</span></li>
+              <li><i class="fa fa-times"></i><span>Personal Training</span></li>
             </ul>
           </div>
           <div class="row">
@@ -476,10 +481,10 @@
               <p>The Golden Plan</p>
             </div>
             <ul class="features">
-              <li><i class="fas fa-check"></i><span>Beginner Classes</span></li>
-              <li><i class="fas fa-check"></i><span>Training Overview</span></li>
-              <li><i class="fas fa-check"></i><span>Personal Training</span></li>
-              <li><i class="fas fa-check"></i><span>Olympic Weightlifting</span></li>
+              <li><i class="fa fa-check"></i><span>Beginner Classes</span></li>
+              <li><i class="fa fa-check"></i><span>Training Overview</span></li>
+              <li><i class="fa fa-check"></i><span>Personal Training</span></li>
+              <li><i class="fa fa-check"></i><span>Olympic Weightlifting</span></li>
             </ul>
           </div>
         </div>
@@ -487,7 +492,7 @@
       <button>Choose plan</button>
     </div>
   </section>
-  <section class="trainers">
+  <section id="trainers" class="trainers">
     <div class="toptrainers">
       <h1>Testimonials</h1>
     </div>
@@ -751,9 +756,9 @@
           <h4>Your Fitness</h4>
           <ul>
             <li><a href="#">why choose us?</a></li>
-            <li><a href="#">testimonials</a></li>
-            <li><a href="#">workout tips</a></li>
-            <li><a href="#">activities</a></li>
+            <li><a href="#trainers">testimonials</a></li>
+            <li><a href="#featureclass">workout tips</a></li>
+            <li><a href="#scheduledclass">activities</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -786,6 +791,10 @@
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
