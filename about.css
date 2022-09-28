@@ -7,19 +7,18 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-#load{
-	height: 100vh;
-	width: 100%;
-	position: fixed;
-	background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
-	z-index: 9999999;
+#load {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
+  z-index: 9999999;
 }
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
 .home {
   height: 100vh;
@@ -89,14 +88,20 @@ body {
   padding: 80px 0px;
   background-color: #ffffff;
 }
+.about .container {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+}
 
 .about .content {
   -webkit-display: flex;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .about .content .box {
-  flex: 0 0 33.33%;
-  max-width: 33.33%;
+  width: 400px;
   padding: 15px;
   border-radius: 20px;
 }
@@ -140,34 +145,36 @@ body {
 }
 
 #bg-video {
-    min-width: 100%;
-    min-height: 100vh;
-    max-width: 100%;
-    max-height: 100vh;
-    object-fit: cover;
-    z-index: -1;
+  min-width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: cover;
+  z-index: -1;
 }
 
 #bg-video::-webkit-media-controls {
-    display: none !important;
+  display: none !important;
 }
 
 .video-overlay {
-    position: absolute;
-    background-color: rgba(35,45,57,0.8);
-    top: 0;
-    left: 0;
-    bottom: 4px;
-    width: 100%;
+  position: absolute;
+  background-color: rgba(35, 45, 57, 0.8);
+  top: 0;
+  left: 0;
+  bottom: 4px;
+  width: 100%;
 }
 
 .main-banner .caption {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: absolute;
-  width: 80%;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
 }
 
 .main-banner .caption h6 {
@@ -195,13 +202,28 @@ body {
   font-weight: 900;
 }
 
-.inner{
-   border: 2px solid black;
+.inner {
+  border: 2px solid black;
 }
 
-.inner:hover{
+.inner:hover {
   transform: scale(1.009);
   box-shadow: 2px 2px 13px purple;
   cursor: pointer;
   border: 2px solid black;
+}
+
+@media only screen and (max-width: 1000px) {
+  .about .content .box {
+    width: 350px;
+    padding: 15px;
+    border-radius: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .main-banner .caption h2 {
+    font-size: 48px;
+    width: 300px;
+    text-align: center;
+  }
 }
