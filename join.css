@@ -132,11 +132,11 @@
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
-  background: rgba(255, 114, 0, 0.65);
+  background: #ff4500;;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  border-radius: 10px;
+  border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 .content .cn a {
@@ -145,7 +145,7 @@
   transition: 0.3s ease;
 }
 .content .cn:hover {
-  background-color: white;
+  background-color: rgb(55, 192, 101);
 }
 .content .cn:hover a {
   color: black;
@@ -157,7 +157,7 @@
 h2 {
   width: 220px;
   font-family: sans-serif;
-  text-align: center;
+  text-align: Left;
   color: #ff7200;
   font-size: 22px;
   background-color: #fff;
