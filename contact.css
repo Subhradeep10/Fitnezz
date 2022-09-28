@@ -38,7 +38,7 @@
 }
 .contact .content .form input:focus,
 .contact .content .form textarea:focus {
-  outline: none;
+  outline: auto;
 }
 .contact .content .form input::placeholder,
 .contact .content .form textarea::placeholder {
@@ -75,13 +75,19 @@
 }
 .contact .content .text p {
   font-size: 18px;
+  display: block;
+  height: auto;
   line-height: 20px;
   color: #ffffff;
   margin: 0;
   padding: 0px 36px 30px;
   font-family: "Open-sans", sans-serif;
 }
-
+.contact .content .text .info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .contact .content .text .info ul {
   list-style: none;
   padding: 0;
@@ -94,15 +100,15 @@
   color: #ffffff;
   font-size: 15px;
   letter-spacing: 1px;
-  position: relative;
-  padding-left: 40px;
   font-family: "Open-Sans", sans-serif;
 }
 .contact .content .text .info li span {
   display: inline-block;
   left: 280px;
   top: 0px;
+
   font-size: 20px;
+  margin-right:30px;
   color: white;
 }
 .contact .content .text .social {

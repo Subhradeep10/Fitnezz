@@ -21,6 +21,7 @@
   <script src="https://use.fontawesome.com/d416e09bd8.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body onload="myfunction()">
@@ -63,10 +64,10 @@
       <div class="head">
         Health is Wealth
       </div>
-      <div class="topic">
+      <div data-aos="fade-left" class="topic">
 
         One of the most valuable possessions in human life is health. With good health, one can achieve anything in
-        life. In order to perform important work effectively, one has to be in sound health.
+        life. In order to perform effectively, one has to be in sound health.
       </div>
       <div>
         <a href="./joinin.html" class="butns_link"><button class="butns">Join Today</button></a>
@@ -77,11 +78,11 @@
 
   <!-- Checking -->
 
-  <section class="featureclass">
-    <h1>FEATURED CLASSES</h1>
+  <section id="featureclass"  class="featureclass">
+    <h1  data-aos="flip-left">FEATURED CLASSES</h1>
 
-    <div class="grid">
-      <div class="card">     
+    <div  class="grid">
+      <div data-aos="zoom-in" class="card">     
         <div class="img">
           <img src="./images/chest_day.jpg" alt="" />
         </div> 
@@ -91,7 +92,7 @@
         </div>
       </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./backWorkout.html">
         <div class="img">
           <img src="./images/back_day.jpg" alt="" />
@@ -101,7 +102,7 @@
         </div>
       </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img src="./images/leg_day.jpeg" alt="" />
         </div>
@@ -109,7 +110,7 @@
           <h2 class="title">Leg Workout</h2>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img src="./images/arm_day.jpg" alt="" />
         </div>
@@ -119,7 +120,7 @@
         </div>
       </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <a href="./tricepWorkout.html">
           <div class="img">
             <img src="./images/tricep_day.jpg" alt="" />
@@ -129,7 +130,7 @@
           </div>
         </a>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img src="./images/shoulder_day.jpg" alt="" />
         </div>
@@ -137,7 +138,7 @@
           <h2 class="title">Shoulder Workout</h2>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img src="./images/bicep_day.jpg" alt="" />
         </div>
@@ -145,38 +146,46 @@
           <h2 class="title">Bicep Workout</h2>
         </div>
       </div>
-      <div class="card">
+
+      <div data-aos="zoom-in" class="card">
+
+   
+        <a href="./cardio.html">
+
         <div class="img">
           <img src="./images/cardio_day.jpg" alt="" />
         </div>
+      </a>
         <div class="content">
-          <h2 class="title">Cardio Workout</h2>
+          <a href="./cardio.html">
+            <h2 class="title">Cardio Workout</h2>
+        </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="scheduledclass">
+  <section id="scheduledclass" class="scheduledclass">
     <div class="topscheduledclass">
-      <h1>SCHEDULED CLASS</h1>
+      <h1 data-aos="flip-down">SCHEDULED CLASS</h1>
     </div>
 
     <div class="grid">
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/chest_day.jpg" alt="" srcset="">
         </div>
         <div class="content">
           <h2 class="title">Chest Workout</h2>
 
-          <p>Increases muscle thickness. Contributes to upper-body strength output. Improves posture</p>
+          <p>Increases muscle mass.Boosts upper-body strength. Improves posture</p>
           <span class="time">Saturday, 5:30 am - 7:30 am</span>
           <button class="btn">Join now</button>
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/back_day.jpg" alt="" />
         </div>
@@ -184,8 +193,8 @@
           <h2 class="title">Back Workout</h2>
 
 
-          <p>Strengthening the back and shoulder muscles can make it easier to correct this posterior imbalance
-            and contributes to greater core strength</p>
+          <p>Strengthening the back and shoulder muscles can correct posterior imbalance
+            and improve core strength.</p>
           <span class="time">Saturday, 7:30 am - 9:30 am</span>
           <button class="btn">Join now</button>
         </div>
@@ -193,33 +202,33 @@
 
 
       <!-- <div class="grid"> -->
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/leg_day.jpeg" alt="" srcset="">
         </div>
         <div class="content">
           <h2 class="title">Leg Workout</h2>
-          <p>Stronger legs will significantly improve your performance of other workouts, including popular cardio
-            training sessions such as running, walking and jogging</p>
+          <p>Stronger legs significantly emhance performance in workouts,including cardio
+            training sessions such as running, walking and jogging.</p>
           <span class="time">Saturday, 7:30 am - 9:30 am</span>
           <button class="btn">Join now</button>
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/arm_day.jpg" alt="">
         </div>
         <div class="content">
           <h2 class="title">Arm Workout</h2>
           <p>Arm workouts can also strengthen your bones.They can even reduce your risk of developing diseases
-            such as osteoporosis</p>
+            such as osteoporosis.</p>
           <span class="time">Saturday, 5:30 am - 7:30 am</span>
           <button class="btn">Join now</button>
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/tricep_day.jpg" alt="" />
         </div>
@@ -229,13 +238,13 @@
 
           <p>Improving triceps strength brings stability to your arms shoulders, increases flexibility, and increases
             range of motion.
-            This will prevent injury and makes it easier for you to use your upper limb in daily activities. </p>
+            This will prevent injury and make it easier for you to use your upper limb in daily activities. </p>
           <span class="time">Sunday, 5:30 am - 7:30 am</span>
           <button class="btn">Join now</button>
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/shoulder_day.jpg" alt="" />
         </div>
@@ -249,7 +258,7 @@
           <button class="btn">Join now</button>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/bicep_day.jpg" alt="" />
         </div>
@@ -259,13 +268,13 @@
 
           <p> The biceps help the rotator cuff with shoulder stability. And healthy rotator cuffs are important because
             you need the stability
-            the cuffs give to be able to move the shoulder through its full range of motion.</p>
+            the cuffs give the ability to move the shoulder through its full range of motion.</p>
           <span class="time">Sunday, 5:30 am - 7:30 am</span>
           <button class="btn">Join now</button>
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-out" class="card">
         <div class="img">
           <img src="./images/cardio_day.jpg" alt="" />
         </div>
@@ -290,7 +299,7 @@
       <h1>Meet the Trainers</h1>
     </div>
     <div class="grid">
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-1.jpg" alt="" srcset="">
         </div>
@@ -304,7 +313,7 @@
           <span class="Certification">NFPT Certified Fitness Trainer</span>
         </div>
       </div>
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-2.jpg" alt="">
         </div>
@@ -336,7 +345,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-4.jpg" alt="">
         </div>
@@ -391,7 +400,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer4.jpg" alt="">
         </div>
@@ -405,7 +414,7 @@
       </div>
 
 
-      <div class="card">
+      <div  class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer5.jpg" alt="">
         </div>
@@ -441,10 +450,10 @@
               <p>Standard Plan</p>
             </div>
             <ul class="features">
-              <li><i class="fas fa-check"></i><span>Beginner Classes</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Training Overview</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Personal Training</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Olympic Weightlifting</span></li>
+              <li><i class="fa fa-check"></i><span>Beginner Classes</span></li>
+              <li><i class="fa fa-times"></i><span>Training Overview</span></li>
+              <li><i class="fa fa-times"></i><span>Personal Training</span></li>
+              <li><i class="fa fa-times"></i><span>Olympic Weightlifting</span></li>
             </ul>
           </div>
           <div class="row">
@@ -453,10 +462,10 @@
               <p>Most Popular Plan</p>
             </div>
             <ul class="features">
-              <li><i class="fas fa-check"></i><span>Beginner Classes</span></li>
-              <li><i class="fas fa-check"></i><span>Training Overview</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Olympic Weightlifting</span></li>
-              <li><i class="fa-solid fa-xmark"></i><span>Personal Training</span></li>
+              <li><i class="fa fa-check"></i><span>Beginner Classes</span></li>
+              <li><i class="fa fa-check"></i><span>Training Overview</span></li>
+              <li><i class="fa fa-times"></i><span>Olympic Weightlifting</span></li>
+              <li><i class="fa fa-times"></i><span>Personal Training</span></li>
             </ul>
           </div>
           <div class="row">
@@ -465,10 +474,10 @@
               <p>The Golden Plan</p>
             </div>
             <ul class="features">
-              <li><i class="fas fa-check"></i><span>Beginner Classes</span></li>
-              <li><i class="fas fa-check"></i><span>Training Overview</span></li>
-              <li><i class="fas fa-check"></i><span>Personal Training</span></li>
-              <li><i class="fas fa-check"></i><span>Olympic Weightlifting</span></li>
+              <li><i class="fa fa-check"></i><span>Beginner Classes</span></li>
+              <li><i class="fa fa-check"></i><span>Training Overview</span></li>
+              <li><i class="fa fa-check"></i><span>Personal Training</span></li>
+              <li><i class="fa fa-check"></i><span>Olympic Weightlifting</span></li>
             </ul>
           </div>
         </div>
@@ -476,7 +485,7 @@
       <button>Choose plan</button>
     </div>
   </section>
-  <section class="trainers">
+  <section id="trainers" class="trainers">
     <div class="toptrainers">
       <h1>Testimonials</h1>
     </div>
@@ -676,14 +685,10 @@
       <div class="signup-connect">
         <h2 style="color: white;">Register your account</h2>
         <div class="social-button">
-          <a href="#" class="btn btn-social btn-facebook" style="width: 100%;"><i class="fa fa-facebook"></i> Sign in
-            with Facebook</a>
-          <a href="#" class="btn btn-social btn-twitter" style="width: 100%;"><i class="fa fa-twitter"></i> Sign in with
-            Twitter</a>
-          <a href="#" class="btn btn-social btn-google" style="width: 100%;"><i class="fa fa-google"></i> Sign in with
-            Google</a>
-          <a href="#" class="btn btn-social btn-linkedin" style="width: 100%;"><i class="fa fa-linkedin"></i> Sign in
-            with Linkedin</a>
+          <a href="#" class="btn btn-social btn-facebook" style="width: 100%;"><i class="fa fa-facebook"></i> Sign in with Facebook</a>
+          <a href="#" class="btn btn-social btn-twitter" style="width: 100%;"><i class="fa fa-twitter"></i> Sign in with Twitter</a>
+          <a href="#" class="btn btn-social btn-google" style="width: 100%;"><i class="fa fa-google"></i> Sign in with Google</a>
+          <a href="#" class="btn btn-social btn-linkedin" style="width: 100%;"><i class="fa fa-linkedin"></i> Sign in with Linkedin</a>
         </div>
       </div>
       <div class="signup-classic">
@@ -709,10 +714,9 @@
     <div class="container-footer">
       <div class="row">
         <div class="footer-col one">
-          <img src="./images/logo.png" alt="Logo">
-          <p>It's a long established gym which takes
-            care of your fitness</p>
-          <div class="socials">
+          <img src="./images/logo.png" alt="Logo" style="item-margin:200px left">
+          <strong><p style="text-align:left ;"> We take care of your fitness</p></strong>
+          <div class="socials" style="padding-bottom:10px;">
   	 				<a href="#"><i class="fa fa-facebook-f"></i></a>
   	 				<a href="#"><i class="fa fa-twitter"></i></a>
   	 				<a href="#"><i class="fa fa-instagram"></i></a>
@@ -721,49 +725,53 @@
   	 		</div>
 
         <div class="footer-col">
-          <h4>About Us</h4>
+          <strong><h4>About Us</h4></strong>
           <ul>
-            <li><a href="#">our story</a></li>
-            <li><a href="#">our legacy</a></li>
-            <li><a href="#">our club</a></li>
-            <li><a href="#">our program</a></li>
+            <li style="text-align:left ;"><a href="#">our program</a></li>
+            <li style="text-align:left ;"><a href="#">our legacy</a></li>
+            <li style="text-align:left ;"><a href="#">our story</a></li>
+            <li style="text-align:left ;"><a href="#">our club</a></li>
           </ul>
         </div>
         <div class="footer-col schedule">
-          <h4>mon - wed</h4>
-          <p><span class="num">8</span>AM - <span class="num">4</span>PM</p>
+          <h4 style="text-align:left ;">mon - wed</h4>
+          <p style="text-align:left ;"><span class="num">8</span>AM - <span class="num">4</span>PM</p>
           <br>
-          <h4>thu - sat</h4>
-          <p><span class="num">10</span>AM - <span class="num">6</span>PM</p>
+          <h4 style="text-align:left ;">thu - sat</h4>
+          <p style="text-align:left ;"><span class="num">10</span>AM - <span class="num">6</span>PM</p>
         </div>
         <div class="footer-col">
-          <h4>Your Fitness</h4>
+          <strong><h4 style="text-align:left ;">Your Fitness</h4></strong>
           <ul>
-            <li><a href="#">why choose us?</a></li>
-            <li><a href="#">testimonials</a></li>
-            <li><a href="#">workout tips</a></li>
-            <li><a href="#">activities</a></li>
+            <li style="text-align:left ;"><a href="#">why choose us?</a></li>
+            <li style="text-align:left ;"><a href="#">testimonials</a></li>
+            <li style="text-align:left ;"><a href="#">workout tips</a></li>
+            <li style="text-align:left ;"><a href="#">activities</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>More</h4>
+        <strong><h4 style="text-align:left ;">More</h4></strong>
           <ul>
-            <li>find a gym</li>
-            <li>shop</li>
-            <li>news</li>
-            <li>accessibility</li>
+            <li style="text-align:left ;">accessibility</li>
+            <li style="text-align:left ;">find a gym</li>
+            <li style="text-align:left ;">news</li>
+            <li style="text-align:left ;">shop</li>
+            
+            
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <div class="left-corner">
-          <p>Copyright &copy; <span>Fitnezz</span></p>
-        </div>
-        <div class="right-corner">
+      <!-- <div class="footer-bottom">
+        <div class="left-corner" style="text-align:center;"> -->
+          <div style="padding-bottom: 20px ;padding-top: 20px ;background-color:rgb(216, 131, 216);">
+              <h2>Copyright &copy; <strong><span>Fitnezz |</span></strong> All Rights Reserved</h3>
+          </div>
+        <!-- </div> -->
+        <!-- <div class="right-corner">
           <p><b>Terms of use </b></p>
           <p><b>Careers</b></p>
           <p><b>Privacy Policy</b></p>
-        </div>
+        </div> -->
       </div>
     </div>
   </footer>
@@ -775,6 +783,10 @@
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
