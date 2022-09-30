@@ -27,9 +27,9 @@
 <body onload="myfunction()">
   <div id="load"></div>
   <!-- <button class="upbtn"> -->
-    <a href="./index.html">
-    <i class="fa fa-arrow-circle-up" id="upbtn" aria-hidden="true"></i>
-    </a>
+    <button id="up-btn">
+      <i class="fa fa-arrow-circle-up" aria-hidden="true" id="upbtn"></i>
+    </button>     
   <!-- </button> -->
   <!-- <body> -->
   <header class="header">
@@ -778,9 +778,15 @@
   </footer>
   <script>
     var preloader = document.getElementById('load');
+    const upBtn = document.getElementById('up-btn')
+
     function myfunction(){
         preloader.style.display='none';
     }
+    
+    upBtn.addEventListener('click',() => {
+      $('html,body').animate({scrollTop: 0}, 500);
+    })
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
