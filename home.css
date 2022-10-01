@@ -2103,6 +2103,7 @@ body {
   bottom: 1vw;
   font-size: 4.5vw;
   color: #000;
+  cursor: pointer;
 }
 
 #upbtn:hover{
