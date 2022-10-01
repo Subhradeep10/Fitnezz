@@ -21,50 +21,40 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<body onload="myfunction()">
-    <div id="load"></div> 
+<body> 
     <div class="main">
         <div class="navbar">
             <div class="icon">
-                <img height="60" width="300"  class="logo-svg" src="./images/logo.svg">
+                <img height="60" width="100"  class="logo-svg" src="./images/logo.svg">
             </div>
             <div class="menu">
-                <ul>
-                    <li><a href="/index.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">NEWS</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
+                    <div><a href="/index.html">HOME</a></div>
+                    <div><a href="/about.html">ABOUT</a></div>
+                    <div><a href="/about.html">NEWS</a></div>
+                    <div><a href="/contact.html">CONTACT</a></div>
             </div>
             <div class="button search srch">
                 <button class="btn2 grow">Become a member</button>
               </div>
-    </div>
+        </div>
 
-    <h2 id="heading">Registration</h2>
     
     <div class="form">
-        <h2>Sign-Up</h2>
-        <input type="text" name="Name" placeholder="Enter your Name Here">
-        <input type="number" name="Phone No." placeholder="Enter Phone No. Here">
-        <input type="email" name="email" placeholder="Enter Email Here">
+        <center><h2 style="background-color: white;border-radius:28px; width:250px;">Sign-Up</h2></center>
+        <input type="text" name="Name" placeholder="Enter Name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" name="Phone No." placeholder="Enter Phone No.">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="email" name="email" placeholder="Enter Email">
         <p style="font-size:17px; color: #fff; letter-spacing: 1px; margin-top:20px ; margin-bottom: -10px; margin-left: 2px;">Gender</p>
         <input style="height: 10px; display: inline-block; width: 30px; margin-right:10px; font-size: 25px; color: white;" type="radio" name="gender" value="male"> Male
         <input style="height: 10px;  display: inline-block; width: 30px; margin-right:10px;" type="radio" name="gender" value="female"> Female
-        <input type="password"  placeholder="Create Password">
+        <input style="height: 10px;  display: inline-block; width: 30px; margin-right:10px;" type="radio" name="gender" value="female"> Others<br>
+        <input type="password"  placeholder="Create Password">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <input type="password"  placeholder="Re-Enter Password">
         <button class="btnn"><a href="#">Login </a></button>
 
-
-        <p class="link">Already have an account<br>
-        <a id="login-back" href="./joinin.html">Login</a> here</a></p>
+        <p class="link">-Or-<br><br>Already have an account<br>
+        <a id="login-back" href="./joinin.html">Login here</a></p>
 
     </div>
-    <script>
-        var preloader = document.getElementById('load');
-        function myfunction(){
-            preloader.style.display='none';
-        }
-      </script>
 </body>
 </html>
