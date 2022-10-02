@@ -79,7 +79,7 @@ body {
 }
 
 .home h1 span {
-  color: purple;
+  color: rgb(175, 156, 175);
 }
 
 /*About section*/
@@ -110,7 +110,7 @@ body {
   border-radius: 20px;
 }
 .about .content .box:nth-child(2) .inner {
-  background-color: #c11325;
+  background-color: black;
   border-radius: 20px;
 }
 .about .content .box .inner .img img {
@@ -204,11 +204,12 @@ body {
 
 .inner {
   border: 2px solid black;
+  box-shadow: 5px solid white;
 }
 
 .inner:hover {
   transform: scale(1.009);
-  box-shadow: 2px 2px 13px purple;
+  box-shadow: 2px 2px 2px rgb(191, 200, 109);
   cursor: pointer;
   border: 2px solid black;
 }

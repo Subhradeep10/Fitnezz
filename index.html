@@ -27,9 +27,9 @@
 <body onload="myfunction()">
   <div id="load"></div>
   <!-- <button class="upbtn"> -->
-    <a href="./index.html">
-    <i class="fa fa-arrow-circle-up" id="upbtn" aria-hidden="true"></i>
-    </a>
+    <button id="up-btn">
+      <i class="fa fa-arrow-circle-up" aria-hidden="true" id="upbtn"></i>
+    </button>     
   <!-- </button> -->
   <!-- <body> -->
   <header class="header">
@@ -78,11 +78,11 @@
 
   <!-- Checking -->
 
-  <section id="featureclass"  class="featureclass">
-    <h1  data-aos="flip-left">FEATURED CLASSES</h1>
+  <section class="featureclass">
+    <h1 data-aos="fade-right" data-aos-duration="800">FEATURED CLASSES</h1>
 
-    <div  class="grid">
-      <div data-aos="zoom-in" class="card">     
+    <div class="grid">
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">     
         <div class="img">
           <img src="./images/chest_day.jpg" alt="" />
         </div> 
@@ -92,8 +92,8 @@
         </div>
       </a>
       </div>
-      <div data-aos="zoom-in" class="card">
-        <a href="./backWorkout.html">
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">
+        <a href="./back.html">
         <div class="img">
           <img src="./images/back_day.jpg" alt="" />
         </div>
@@ -102,17 +102,18 @@
         </div>
       </a>
       </div>
-      <div data-aos="zoom-in" class="card">
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">
         <a href="./leg workout.html">
         <div class="img">
           <img src="./images/leg_day.jpeg" alt="" />
         </div>
+        
         <div class="content">
           <h2 class="title">Leg Workout</h2>
         </div>
       </a>
       </div>
-      <div data-aos="zoom-in" class="card">
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">
         <a href="./armworkout.html">
         <div class="img">
           <img src="./images/arm_day.jpg" alt="" />
@@ -122,7 +123,7 @@
         </div>
       </a>
       </div>
-      <div data-aos="zoom-in" class="card">
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">
         <a href="./tricepWorkout.html">
           <div class="img">
             <img src="./images/tricep_day.jpg" alt="" />
@@ -132,7 +133,7 @@
           </div>
         </a>
       </div>
-      <div data-aos="zoom-in" class="card">
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">
         <a href="./shoulder.html">
         <div class="img"> 
           <img src="./images/shoulder_day.jpg" alt="" />
@@ -140,10 +141,10 @@
         <div class="content">
           <h2 class="title">Shoulder Workout</h2>
         </div>
-       </a>
+      </a>
       </div>
    
-      <div data-aos="zoom-in" class="card">
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">
         <a href="./bicep.html">
         <div class="img">
           <img src="./images/bicep_day.jpg" alt="" />
@@ -153,10 +154,7 @@
         </div>
       </a>
       </div>
-
-      <div data-aos="zoom-in" class="card">
-
-   
+      <div data-aos="zoom-in-up" data-aos-duration="800" class="card">
         <a href="./cardio.html">
 
         <div class="img">
@@ -174,12 +172,14 @@
 
   <section id="scheduledclass" class="scheduledclass">
     <div class="topscheduledclass">
-      <h1 data-aos="flip-down">SCHEDULED CLASS</h1>
+      <h1 data-aos="fade-right" data-aos-duration="800">SCHEDULED CLASS</h1>
     </div>
 
     <div class="grid">
 
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/chest_day.jpg" alt="" srcset="">
         </div>
@@ -192,7 +192,9 @@
         </div>
       </div>
 
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/back_day.jpg" alt="" />
         </div>
@@ -209,7 +211,9 @@
 
 
       <!-- <div class="grid"> -->
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/leg_day.jpeg" alt="" srcset="">
         </div>
@@ -222,7 +226,9 @@
         </div>
       </div>
 
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/arm_day.jpg" alt="">
         </div>
@@ -235,7 +241,9 @@
         </div>
       </div>
 
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/tricep_day.jpg" alt="" />
         </div>
@@ -251,7 +259,9 @@
         </div>
       </div>
 
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/shoulder_day.jpg" alt="" />
         </div>
@@ -265,7 +275,9 @@
           <button class="btn">Join now</button>
         </div>
       </div>
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/bicep_day.jpg" alt="" />
         </div>
@@ -281,7 +293,9 @@
         </div>
       </div>
 
-      <div data-aos="zoom-out" class="card">
+      <div data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000" class="card">
         <div class="img">
           <img src="./images/cardio_day.jpg" alt="" />
         </div>
@@ -303,10 +317,10 @@
   </section>
   <section class="trainers">
     <div class="toptrainers">
-      <h1>Meet the Trainers</h1>
+      <h1 data-aos="fade-right" data-aos-duration="800">Meet the Trainers</h1>
     </div>
     <div class="grid">
-      <div  class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-1.jpg" alt="" srcset="">
         </div>
@@ -320,7 +334,7 @@
           <span class="Certification">NFPT Certified Fitness Trainer</span>
         </div>
       </div>
-      <div  class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-2.jpg" alt="">
         </div>
@@ -336,7 +350,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-3.jpg" alt="" srcset="">
         </div>
@@ -352,7 +366,7 @@
         </div>
       </div>
 
-      <div  class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/coach-4.jpg" alt="">
         </div>
@@ -366,7 +380,7 @@
         </div>
       </div>
       
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer1.jpg" alt="">
         </div>
@@ -380,7 +394,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer2.jpg" alt="">
         </div>
@@ -394,7 +408,7 @@
         </div>
       </div>
 
-      <div class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer3.jpg" alt="">
         </div>
@@ -407,7 +421,7 @@
         </div>
       </div>
 
-      <div  class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer4.jpg" alt="">
         </div>
@@ -421,7 +435,7 @@
       </div>
 
 
-      <div  class="card">
+      <div data-aos="zoom-in" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/trainer5.jpg" alt="">
         </div>
@@ -494,10 +508,10 @@
   </section>
   <section id="trainers" class="trainers">
     <div class="toptrainers">
-      <h1>Testimonials</h1>
+      <h1 data-aos="fade-right" data-aos-duration="800">Testimonials</h1>
     </div>
     <div class="grid">
-      <div class="card">
+      <div data-aos="fade-right" data-aos-duration="800" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/21.jpg" alt="" srcset="">
         </div>
@@ -512,7 +526,7 @@
           <span class="Certification">Owner</span>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="fade-right" data-aos-duration="800" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/3.jpg" alt="" srcset="">
         </div>
@@ -526,7 +540,7 @@
           <span class="Certification">Developer</span>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="fade-right" data-aos-duration="800" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/4.jpg" alt="" srcset="">
         </div>
@@ -542,7 +556,7 @@
           <span class="Certification">Designer</span>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="fade-right" data-aos-duration="800" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/6.jpg" alt="" srcset="">
         </div>
@@ -560,7 +574,7 @@
           <span class="Certification">Devrel</span>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="fade-right" data-aos-duration="800" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/testi2.jpg" alt="" srcset="">
         </div>
@@ -576,7 +590,7 @@
           <span class="Certification">Software Engineer</span>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="fade-right" data-aos-duration="800" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/testi1.webp" alt="" srcset="">
         </div>
@@ -591,7 +605,7 @@
           <span class="Certification">Environmentalist</span>
         </div>
       </div>
-      <div class="card">
+      <div data-aos="fade-right" data-aos-duration="800" class="card">
         <div class="img">
           <img style="object-fit: contain;" src="./images/testi3.jpg" alt="" srcset="">
         </div>
@@ -603,6 +617,36 @@
             This continuous task of data collection and processing causes severe back pain at times, so I make sure that
             I get my weekend workouts stipulated with the help of <i>Fitnezz</i> club. </p>
           <span class="Certification">Social Worker</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="img">
+          <img style="object-fit: contain;" src="./images/nayana.jpg" alt="" srcset="">
+        </div>
+        <div class="trainers-content">
+          <h2 class="title">Nayana Sharma</h2>
+          &starf;&starf;&starf;&starf;&star;
+          <p>I am a Lecturer and so concerns about  health issues which are most comman in our society and specially in college students on several
+            preceding legislature cases.
+            This continuous task of writting and sitting causes severe back pain at times, so I make sure that
+            but never loss hope because with the help of <i>Fitnezz</i> club. </p>
+          <span class="Certification">Lecturer</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="img">
+          <img style="object-fit: contain;" src="./images/Kp.jpg" alt="" srcset="">
+        </div>
+        <div class="trainers-content">
+          <h2 class="title">Kiran Patil</h2>
+          &starf;&starf;&starf;&starf;&star;
+          <p> Currently I'm working as a software developer and so concerns about regular Exercise. Even though it is the most common and obvious tip to stay healthy, not many people follow it.
+            Reduce Eye Strain. Staring at the computer all day exposes you to harmful blue light
+            Enjoy a good Sleep, 
+            Maintain a Good Posture,
+            Take Regular Breaks. <i>Fitnezz</i> club. </p>
+          <span class="Certification">Software Developer</span>
         </div>
       </div>
 
@@ -784,9 +828,15 @@
   </footer>
   <script>
     var preloader = document.getElementById('load');
+    const upBtn = document.getElementById('up-btn')
+
     function myfunction(){
         preloader.style.display='none';
     }
+    
+    upBtn.addEventListener('click',() => {
+      $('html,body').animate({scrollTop: 0}, 500);
+    })
   </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="script.js"></script>
