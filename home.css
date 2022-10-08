@@ -98,6 +98,16 @@ h1::after {
   font-size: 34px;
   font-family: "Poppins", sans-serif;
   margin-left: 1rem;
+  transition: all 0.3s ease;
+}
+.logo:hover {
+  transform: translateX(10px);
+}
+.logo i {
+  transition: all 0.4s ease;
+}
+.logo:hover i {
+  transform: rotate(90deg);
 }
 
 .navbar li {
@@ -121,6 +131,7 @@ h1::after {
   text-decoration: none;
   color: white;
   padding: 16px;
+  transition: all 0.3s ease;
   /* text-decoration: underline; */
 }
 
@@ -225,23 +236,29 @@ h1::after {
   z-index: 1;
 }
 .butns {
-  background: white;
-  color: purple;
+  background: purple;
+  color: #fff;
   font-size: 20px;
-  padding: 10px 5px;
+  padding: 10px 10px;
   width: 25%;
   border: 2px solid purple;
   cursor: pointer;
   margin-top: 25px;
   border-radius: 15px;
   font-family: "Roboto";
+  transition: all 0.3s ease;
 }
 .butns:hover {
-  background: purple;
-  color: white;
+  background: #fff;
+  color: purple;
   border: 2px solid white;
   cursor: pointer;
-  transition: 0.3s;
+}
+.butns i {
+  transition: all 0.2s ease;
+}
+.butns:hover i {
+  transform: translateX(10px);
 }
 .butns_link {
   color: white;
@@ -646,6 +663,7 @@ div.card a {
 .signup-connect {
   background: linear-gradient(-5deg, purple, rgb(193, 3, 193));
   color: hsl(0, 0, 100);
+  border-radius: 30px;
 }
 
 .signup-connect h2 {
@@ -897,6 +915,14 @@ div.card a {
   justify-content: center;
   min-height: 100vh;
   background: linear-gradient(#d724ff 0%, #77a5f8 100%);
+}
+
+.toppricing {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
 }
 
 .wrapper {
@@ -1624,12 +1650,10 @@ footer {
   justify-content: center;
 }
 .socials i {
-  color: palevioletred;
   font-size: 18px;
   padding: 5px;
   height: 35px;
   width: 35px;
-  border: 2px plum solid;
   text-align: center;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -1638,25 +1662,70 @@ footer {
   transition: all 0.1s ease-in-out;
   transform: scale(1.2);
   margin: 5px;
+  transition: all 0.3s ease;
 }
-.socials i:hover {
-  background-color: rgba(150, 21, 150, 0.4);
+.fb {
+  color: #4267b2;
+  border: 2px #4267b2 solid;
+  transition: all 0.3s ease;
+}
+.socials :hover .fb {
+  background-color: #4267b2;
+  color: #fff;
+}
+.twit {
+  color: #1da1f2;
+  border: 2px #1da1f2 solid;
+  transition: all 0.3s ease;
+}
+.socials :hover .twit {
+  background-color: #1da1f2;
+  color: #fff;
+}
+.fa-instagram {
+  color: #e1306c;
+  border: 2px #e1306c solid;
+  transition: all 0.3s ease;
+}
+.socials :hover .fa-instagram {
+  background-color: #e1306c;
+  color: #fff;
+}
+.linkd {
+  color: #0077b5;
+  border: 2px #0077b5 solid;
+  transition: all 0.3s ease;
+}
+.socials :hover .linkd {
+  background-color: #0077b5;
+  color: #fff;
 }
 ul {
   list-style: none;
 }
 .footer-col {
-  padding: 0 15px;
+  padding: 20px 15px;
 }
 .footer-col h4 {
   font-size: 26px;
   color: black;
   text-transform: capitalize;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
   font-weight: bold;
   position: relative;
 }
-
+.footer-col .timing {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.footer-col .timing i {
+  color: purple;
+  transition: all 0.3s ease;
+}
+.footer-col .timing i:hover {
+  transform: translateY(-5px);
+  color: crimson;
+}
 .footer-col ul li {
   line-height: 2.5;
   text-transform: capitalize;
@@ -1665,6 +1734,18 @@ ul {
 .footer-col a {
   color: #000;
   text-decoration: none;
+  transition: all 0.3s ease;
+}
+.footer-col hr {
+  width: 0;
+  border-color: #fff;
+  transition: all 0.3s ease;
+}
+.footer-col li:hover hr {
+  border-color: purple;
+  color: purple;
+  background-color: purple;
+  width: 100%;
 }
 .schedule p,
 .schedule h4:last-child {
@@ -1695,6 +1776,30 @@ ul {
 .right-corner p {
   margin: 10px 35px;
 }
+
+.copyright {
+  padding-bottom: 17px;
+  padding-top: 17px;
+  background-color: purple;
+  color: #fff;
+}
+.copyright p {
+  font-size: 18px;
+}
+.copyright a {
+  font-weight: 600;
+  transition: all 0.2s ease-out;
+}
+.copyright span {
+  padding: 5px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.copyright span:hover {
+  background-color: #fff;
+  color: purple;
+}
+
 /*responsive*/
 @media (max-width: 1130px) {
   .grid .card .content .time {
